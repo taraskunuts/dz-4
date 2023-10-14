@@ -1,0 +1,59 @@
+:root {
+    --bg-color: blue;
+    --text-color:  #757575;
+    --bg-color: #2F303A;
+    --tex-color:#2196F3;
+    --adress-color:#fff;
+    --phone-color: rgba(255, 255, 255, 0.60);
+    --bge-color: #F5F4FA;
+}
+
+.text-1{
+    color: var(--tex-color);
+}
+
+.p-one {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.a-one {
+    color: var(--tex-color);
+    text-decoration: none;
+}
+
+.footer {
+    background-color: var(--bg-color);
+}
+
+.adress {
+    color: var(--adress-color);
+}
+
+.section-one {
+    background-color: var(--bg-color);
+}
+
+.text-h1 {
+    color: var(--adress-color);
+}
+
+.type-p-for-every-li {
+    color: var(--text-color);
+}
+
+.button {
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--adress-color);
+}
+
+.mailto {
+    color: var(--phone-color);
+}
+
+.telephone {
+    color: var(--phone-color);
+}
+
