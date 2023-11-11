@@ -1,5 +1,4 @@
 :root {
-    --bg-color: blue;
     --text-color:  #757575;
     --bg-color: #2F303A;
     --tex-color:#2196F3;
@@ -7,9 +6,13 @@
     --phone-color: rgba(255, 255, 255, 0.60);
     --bge-color: #F5F4FA;
 }
+ 
+.bigbox{
+    color: var(--bg-color);
+}
 
-.text-1{
-    color: var(--tex-color);
+.effect-title{
+    color: var(--adress-color);
 }
 
 .p-one {
@@ -17,7 +20,7 @@
     text-decoration: none;
 }
 
-.a-one {
+.top-link {
     color: var(--tex-color);
     text-decoration: none;
 }
