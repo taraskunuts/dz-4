@@ -1,10 +1,11 @@
 :root {
-  --text-color: #757575;
+  --black-color: #000;
+  --blue-color: #2196f3;
   --bg-color: #2f303a;
-  --tex-color: #2196f3;
-  --adress-color: #fff;
-  --phone-color: rgba(255, 255, 255, 0.6);
-  --bge-color: #f5f4fa;
+  --kiddo-ultra-white: #fff;
+  --subtext-color: #757575;
+  --text-color: #212121;
+  --background-command: #f5f4fa;
 }
 
 #bigbox {
@@ -13,7 +14,15 @@
 }
 
 .top {
-  background-color: var(--adress-color);
+  background-color: var(--kiddo-ultra-white);
+}
+
+.top-title {
+  color: var(--blue-color);
+}
+
+.top-span {
+  color: var(--black-color);
 }
 
 .top-link {
@@ -26,14 +35,14 @@
 }
 
 .top-link:hover {
-  color: var(--tex-color);
+  color: var(--blue-color);
 }
 
-.effect-title {
-  color: var(--adress-color);
 
+
+.hero-title {
+  color: var(--kiddo-ultra-white);
   text-align: center;
-
   font-size: 44px;
   font-style: normal;
   font-weight: 900;
@@ -42,9 +51,9 @@
   text-transform: uppercase;
 }
 
-.button {
-  background-color: var(--tex-color);
-  color: var(--adress-color);
+.hero-button {
+  background-color: var(--blue-color);
+  color: var(--kiddo-ultra-white);
   text-align: center;
   font-size: 16px;
   font-weight: 700;
@@ -53,18 +62,69 @@
 }
 
 .gigabox {
-  background-color: var(--adress-color);
+  background-color: var(--kiddo-ultra-white);
 }
 
 
-.quality-subtext {
-  color: #212121;
+
+.quality-text {
+  color: var(--text-color);
+  font-family: Roboto;
   font-size: 14px;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
+
+.quality-subtext {
+  color: var(--subtext-color);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+
+
+.doing-title {
+  color: var(--text-color);
+
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
+
+.doing-image {
+  width: 370px;
+  height: 294px;
+}
+
+.comand {
+  background-color: var(--background-command);
+}
+
+.comand-title {
+  color: var(--text-color);
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+}
+
+.comand-img {
+  width: 270px;
+  height: 260px;
+}
+
+.comand-text {
+  
+}
+
 
 
 
