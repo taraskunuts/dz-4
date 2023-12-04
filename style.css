@@ -10,7 +10,7 @@
 }
 
 #bigbox {
-  background-color: var(--bg-color);
+  background-color: var(--kiddo-ultra-white);
   font-family: Roboto;
 }
 
@@ -42,6 +42,11 @@ letter-spacing: 0.78px;
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: 0.28px;
+  list-style: none;
+}
+
+.top-list {
+  list-style: none;
 }
 
 .top-link:hover {
@@ -54,6 +59,7 @@ font-size: 14px;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.28px;
+
 }
 
 .top-info {
@@ -62,6 +68,10 @@ font-size: 14px;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.28px;
+}
+
+.hero{
+  background-color: var(--bg-color);
 }
 
 .hero-title {
@@ -116,10 +126,9 @@ letter-spacing: 0.28px;
   letter-spacing: 1.08px;
 }
 
-.doing-image {
-  width: 370px;
-  height: 294px;
-}
+
+
+
 
 .comand {
   background-color: var(--background-command);
@@ -155,6 +164,10 @@ letter-spacing: 0.28px;
   font-weight: 400;
   line-height: 1.2;
   letter-spacing: 0.48px;
+}
+
+.footer{
+  background-color: var(--bg-color);
 }
 
 .footer-title {
@@ -251,6 +264,15 @@ font-size: 16px;
 font-weight: 400;
 line-height: 30px; /* 187.5% */
 letter-spacing: 0.48px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  list-style: none;
+  outline: solid green;
 }
 
 /*
