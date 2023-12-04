@@ -42,12 +42,9 @@ letter-spacing: 0.78px;
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: 0.28px;
-  list-style: none;
 }
 
-.top-list {
-  list-style: none;
-}
+
 
 .top-link:hover {
   color: var(--blue-color);
