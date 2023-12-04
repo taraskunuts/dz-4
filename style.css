@@ -16,6 +16,8 @@
 
 .top {
   background-color: var(--kiddo-ultra-white);
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .top-title {
@@ -69,6 +71,8 @@ letter-spacing: 0.28px;
 
 .hero{
   background-color: var(--bg-color);
+  padding-top: 200px ;
+  padding-bottom: 200px ;
 }
 
 .hero-title {
@@ -95,6 +99,11 @@ letter-spacing: 0.28px;
   background-color: var(--kiddo-ultra-white);
 }
 
+.quality {
+  padding-top: 94px ;
+  padding-bottom: 94px ;
+}
+
 .quality-text {
   color: var(--text-color);
   font-size: 14px;
@@ -113,9 +122,13 @@ letter-spacing: 0.28px;
   text-transform: uppercase;
 }
 
+.doing {
+  padding-top: 0px;
+  padding-bottom: 94px;
+}
+
 .doing-title {
   color: var(--text-color);
-
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -129,6 +142,8 @@ letter-spacing: 0.28px;
 
 .comand {
   background-color: var(--background-command);
+  padding-top: 94px ;
+  padding-bottom: 94px ;
 }
 
 .comand-title {
@@ -165,6 +180,8 @@ letter-spacing: 0.28px;
 
 .footer{
   background-color: var(--bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-title {
@@ -215,6 +232,8 @@ letter-spacing: 0.78px;
 
 .portfolio {
   background-color: var(--kiddo-ultra-white);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .portfolio-button {
@@ -268,8 +287,7 @@ letter-spacing: 0.48px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  list-style: none;
-  outline: solid green;
+
 }
 
 /*
