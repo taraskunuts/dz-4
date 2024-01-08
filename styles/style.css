@@ -14,7 +14,7 @@
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: solid red;
+
 }
 
 #bigbox {
@@ -240,9 +240,6 @@ letter-spacing: 0.42px;
   flex-direction: row;
 }
 
-.comand-item {
-  outline: purple solid;
-}
 
 .footer{
   background-color: var(--bg-color);
@@ -350,7 +347,7 @@ letter-spacing: 0.78px;
 .portfolio-item2 {
   border: 1px solid #EEE;
   background: #FFF;
-  width: 370px;
+  width: calc((100% - (2 * 30px)) / 3);
 }
 
 .portfolio-img {
