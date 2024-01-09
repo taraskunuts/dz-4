@@ -240,6 +240,10 @@ letter-spacing: 0.42px;
   flex-direction: row;
 }
 
+.comand-item {
+  background-color: var(--kiddo-ultra-white);
+}
+
 
 .footer{
   background-color: var(--bg-color);
@@ -281,6 +285,7 @@ letter-spacing: 0.78px;
   line-height: 24px;
   letter-spacing: 0.42px;
   margin-top: 20px;
+  margin-bottom: 8px;
 
 }
 
@@ -290,6 +295,7 @@ letter-spacing: 0.78px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.42px;
+  margin-bottom: 8px;
 }
 
 .footer-telephone {
