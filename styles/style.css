@@ -166,7 +166,7 @@ height: 120px;
 .quality-list>:first-child::before{
   content: "";     
   display: inline-block;
-  background-image: url("../images/antenna1.webp")  ;
+  background-image: url("../images/antenna.webp")  ;
   background-position: 50% 50% ;
    height: 70px;
    width: 100%;
@@ -181,7 +181,7 @@ height: 120px;
 
  content: "";     
   display: inline-block;
-  background-image: url("../images/clock1.webp")  ;
+  background-image: url("../images/clock.webp")  ;
   background-position: 50% 50% ;
   width: 100%;
   height: 70px;
@@ -196,7 +196,7 @@ height: 120px;
 
  content: "";     
   display: inline-block;
-  background-image: url("../images/diagram1.webp")  ;
+  background-image: url("../images/diagram.webp")  ;
   background-position: 50% 50% ;
   width: 100%;
   height: 70px;
@@ -210,7 +210,7 @@ height: 120px;
 
  content: "";     
   display: inline-block;
-  background-image: url("../images/astronaut1.webp")  ;
+  background-image: url("../images/astronaut.webp")  ;
   background-position: 50% 50% ;
   width: 100%;
   height: 70px;
