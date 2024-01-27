@@ -221,8 +221,10 @@ height: 120px;
 .quality-list {
   display: flex;
   gap: 30px;
-  height: 248px;
+}
 
+.quality-item {
+  color: #757575;
 }
 
 .doing {
