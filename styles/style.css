@@ -26,6 +26,8 @@
   background-color: var(--kiddo-ultra-white);
   padding-top: 24px;
   padding-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .top-container {
@@ -98,12 +100,15 @@ letter-spacing: 0.28px;
 }
 
 .hero{
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--bg-color);
   padding-top: 200px ;
   padding-bottom: 200px ;
-  width: 1600px;
-height: 600px;
-  background-image: url("../images/hero-background.webp");
+  max-width: 1600px;
+  height: 600px;
+  background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)  ), url("../images/hero-background.webp");
+  
 }
 
 .hero-container {
@@ -146,6 +151,8 @@ height: 120px;
 }
 
 .quality {
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 94px ;
   padding-bottom: 94px ;
 }
@@ -158,6 +165,7 @@ height: 120px;
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
+
 
 
 
@@ -233,6 +241,8 @@ height: 120px;
 .doing {
   padding-top: 0px;
   padding-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .doing-title {
@@ -255,6 +265,8 @@ height: 120px;
 
 
 .comand {
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--background-command);
   padding-top: 94px ;
   padding-bottom: 94px ;
@@ -372,16 +384,13 @@ letter-spacing: 0.78px;
   letter-spacing: 0.42px;
 }
 
-.line {
-  width: 1600px;
-height: 1px;
-background-color: #ECECEC ;
-}
+
 
 .portfolio {
   background-color: var(--kiddo-ultra-white);
   padding-top: 94px;
   padding-bottom: 94px;
+  border-top: 1px solid #ececec;
 }
 
 .portfolio-list {
@@ -400,8 +409,13 @@ background-color: #ECECEC ;
   font-weight: 500;
   line-height: 26px; /* 162.5% */
   letter-spacing: 0.48px;
+  border: none;
   border-radius: 4px;
-  border-color: #F5F4FA;
+
+padding-top: 6px;
+padding-bottom: 6px;
+padding-left: 22px;
+padding-right: 22px;
 }
 
 .portfolio-button:hover {
@@ -413,6 +427,8 @@ background-color: #ECECEC ;
   letter-spacing: 0.48px;
   background-color: var(--blue-color);
   border-radius: 4px;
+  border-color: #F5F4FA;
+box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
 }
 
 .portfolio-list2 {
