@@ -6,7 +6,7 @@
     <title>Document</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts. static.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.static.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -36,11 +36,17 @@
           </nav>
           <ul class="top-list">
             <li class="top-item">
+              <svg class="email">
+                <use href="./symboldefts/symbol-defs.svg#icon-mail"></use>
+            </svg>
               <a href="mailto:info@devstudio.com" class="top-info"
                 >info@devstudio.com</a
               >
             </li>
             <li class="top-item">
+              <svg class="phone">
+                <use href="./symboldefts/symbol-defs.svg#icon-smartphone"></use>
+            </svg>
               <a href="tel:+380961111111" class="top-telephone"
                 >+38 096 111 11 11</a
               >
@@ -157,13 +163,15 @@
     </section>
     <footer class="footer">
       <div class="container">
+        <ul class="footer-container">
+          <li class="footer-item">
         <a href="./index.html" class="footer-title"
           >Web<span class="footer-span">Studio</span></a
         >
         <address class="footer-address">
           м. Київ, пр-т Лесі Українки, 26
         </address>
-        <div class="footer-container">
+        <div class="footer-tel-mail">
           <a href="mailto:info@devstudio.com" class="footer-mailto"
             >info@devstudio.com</a
           >
@@ -171,6 +179,33 @@
             >+38 096 111 11 11</a
           >
         </div>
+      </li>
+      <li>
+        <h2 class="footer-subtext">приєднуйтесь</h2>
+      <ul class="footer-svg-list">
+        <li class="footer-svg-item">
+          <svg class="footer-svg">
+            <use href="./symboldefts/symbol-defs.svg#icon-instagram"></use>
+          </svg>
+        </li>
+        <li class="footer-svg-item">
+          <svg class="footer-svg">
+            <use href="./symboldefts/symbol-defs.svg#icon-twitter"></svg>
+          </svg>
+        </li>
+        <li class="footer-svg-item">
+          <svg class="footer-svg">
+            <use href="./symboldefts/symbol-defs.svg#icon-facebook"></svg>
+          </svg>
+        </li>
+        <li class="footer-svg-item">
+          <svg class="footer-svg">
+            <use href="./symboldefts/symbol-defs.svg#icon-linkedin"></svg>
+          </svg>
+      </li>
+        </ul>
+      </li>
+      </ul>
       </div>
     </footer>
   </body>
