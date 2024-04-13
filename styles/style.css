@@ -331,21 +331,26 @@ height: 120px;
   gap: 30px;
 }
 
-.doing-image{
-  z-index: 1;
+.doing-item {
+  position: relative;
 }
 
-.doing-sub-title{
-  z-index: 2;
+.doing-button {
   width: 370px;
-height: 70px;
-background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8));
-padding-top: 27px;
-padding-bottom: 27px;
-padding-left: 95px;
-padding-right: 95px;
-
+  height: 70px;
+  background: rgba(47, 48, 58, 0.80);
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  border: none;
 }
+
 
 .doing-text{
   color: #FFF;
