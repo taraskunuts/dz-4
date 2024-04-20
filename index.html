@@ -59,7 +59,7 @@
         <div class="container">
           <div class="hero-container">
             <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-            <button type="button" class="hero-button">Замовити послугу</button>
+            <button data-modal-open type="button" class="hero-button">Замовити послугу</button>
           </div>
         </div>
       </section>
@@ -364,9 +364,9 @@
       </ul>
       </div>
     </footer>
-    <div class="backdrop">
+    <div data-modal class="backdrop is-hidden">
       <div class="modal">
-        <button class="modal-close">
+        <button data-modal-close class="modal-close">
         <svg class="modal-top-svg">
           <use href="./symboldefts/symbol-defs.svg#icon-close"></use>
         </svg>
@@ -411,8 +411,9 @@
         <input class="modal-checkbox" type="checkbox">
         <p class="modal-subtext">Погоджуюся з розсилкою та приймаю  <span class="modal-span">Умови договору</span></p>
       </div>
-      <button class="modal-button" type="button">Відправити</button>
+      <button class="modal-button" type="submit">Відправити</button>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

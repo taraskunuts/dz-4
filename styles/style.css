@@ -958,6 +958,12 @@ letter-spacing: 0.42px;
 text-decoration-line: underline;
 }
 
+.is-hidden{
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
 /*
  :root {
   --black-color: #000;
