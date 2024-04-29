@@ -72,6 +72,7 @@
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: 0.28px;
+  position: relative;
 }
 
 .top-link:focus {
@@ -82,6 +83,37 @@
   letter-spacing: 0.28px;
 }
 
+.top-link:hover {
+  color: var(--blue-color);
+}
+
+.top-link:hover::after {
+  content: '';
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
+background-color: #2196F3;
+display: block;
+top: 28px;
+left: 0;
+position: absolute;
+}
+
+.top-link:focus::after {
+  content: '';
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
+background-color: #2196F3;
+display: block;
+top: 28px;
+left: 0;
+position: absolute;
+border: none;
+outline: none;
+}
+
+
 .top-navigation {
   display: flex;
   gap: 50px;
@@ -91,9 +123,7 @@
   margin-left: 93px;
 }
 
-.top-link:hover {
-  color: var(--blue-color);
-}
+
 
 .top-telephone {
   color: var(--subtext-color);
