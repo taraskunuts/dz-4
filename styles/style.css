@@ -85,6 +85,8 @@
 
 .top-link:hover {
   color: var(--blue-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .top-link:hover::after {
@@ -93,6 +95,8 @@
   width: 100%;
   border-radius: 2px;
 background-color: #2196F3;
+transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 display: block;
 top: 28px;
 left: 0;
@@ -111,6 +115,8 @@ left: 0;
 position: absolute;
 border: none;
 outline: none;
+transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -139,6 +145,8 @@ outline: none;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .top-telephone:hover {
@@ -147,6 +155,8 @@ outline: none;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .top-info {
@@ -163,6 +173,8 @@ outline: none;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .top-info:hover {
@@ -171,6 +183,8 @@ outline: none;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .top-list {
@@ -187,10 +201,14 @@ outline: none;
 
 .top-item:hover .email {
   fill: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .top-item:hover .phone {
   fill: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero {
@@ -450,11 +468,15 @@ outline: none;
 
 .comand-svg-item:hover .comand-svg {
   fill: #fff;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comand-svg-item:hover {
   background-color: #2196f3;
   border-radius: 50%;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comand-svg-link {
@@ -476,10 +498,14 @@ outline: none;
   padding-bottom: 12px;
   border-radius: 50%;
   fill: #fff;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comand-svg-link:focus .comand-svg {
   fill: #fff;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comand-svg-item {
@@ -505,10 +531,14 @@ outline: none;
 }
 .customers-item:hover {
   border: 1px solid #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-item:hover .customers-svg {
   fill: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-svg-link {
@@ -525,10 +555,14 @@ outline: none;
   border: 1px solid #2196f3;
   width: 170px;
   height: 92px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-svg-link:focus .customers-svg {
   fill: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-list {
@@ -620,6 +654,8 @@ outline: none;
 
 .footer-svg-item:hover .footer-svg {
   fill: #fff;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-svg-list {
@@ -636,18 +672,47 @@ outline: none;
 .footer-svg-item:hover {
   background-color: #2196f3;
   border-radius: 50%;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-svg-item:focus {
+  background-color: #2196f3;
+  border-radius: 50%;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-svg-item {
+.footer-svg-link{
   width: 44px;
   height: 44px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
   padding-left: 12px;
   padding-top: 12px;
   padding-right: 12px;
   padding-bottom: 12px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+  .footer-svg-link:focus {
+    outline: none;
+  border: 1px solid #2196f3;
+  background-color:#2196f3 ;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+
+
+.footer-svg-item {
+  border-radius:  50%;
 }
 
 .footer-container {
@@ -692,6 +757,12 @@ outline: none;
 
 .footer-emailinput-holder {
   display: flex;
+}
+
+.footer-svg-link:focus .footer-svg {
+  fill: #fff;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-button {
@@ -766,6 +837,8 @@ outline: none;
   border-color: #f5f4fa;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08),
     0 3px 1px 0 rgba(0, 0, 0, 0.1);
+    transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-button:focus {
@@ -780,6 +853,8 @@ outline: none;
   border-color: #f5f4fa;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08),
     0 3px 1px 0 rgba(0, 0, 0, 0.1);
+    transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list2 {
@@ -801,6 +876,8 @@ outline: none;
 .portfolio-item2:hover {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+    transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-img {
@@ -832,6 +909,8 @@ outline: none;
 
 .portfolio-item2:hover .portfolio-overlay-holder {
   opacity: 1;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-overlay-holder {
@@ -921,10 +1000,14 @@ outline: none;
 
 .modal-label:hover {
   border: 1px solid #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-label:hover .modal-svg {
   fill: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input {
@@ -949,6 +1032,8 @@ outline: none;
   border-radius: 4px;
   border: 1px solid #2196f3;
   padding: 12px 16px 82px 16px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-text {
@@ -1014,6 +1099,8 @@ outline: none;
 
 .modal-close:hover .modal-top-svg {
   fill: var(--blue-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-top-svg {
