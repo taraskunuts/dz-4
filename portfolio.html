@@ -21,6 +21,7 @@
     />
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/style.css" />
+    
   </head>
   <body id="bigbox">
     <header class="top">
@@ -59,24 +60,24 @@
       <div class="container">
         <div class="portfolio-box">
           <ul class="portfolio-list">
-            <li class="portfolio-item">
-              <button type="button" class="portfolio-button">Усі</button>
+            <li class="portfolio-item" id="portfolio-item">
+              <button type="button" class="portfolio-button" onclick="filterSelection('all')">Усі</button>
             </li>
-            <li class="portfolio-item">
-              <button type="button" class="portfolio-button">Веб-сайти</button>
+            <li class="portfolio-item" id="portfolio-item">
+              <button type="button" class="portfolio-button" onclick="filterSelection('webs')">Веб-сайти</button>
             </li>
-            <li class="portfolio-item">
-              <button type="button" class="portfolio-button">Додатки</button>
+            <li class="portfolio-item" id="portfolio-item">
+              <button type="button" class="portfolio-button" onclick="filterSelection('apps')">Додатки</button>
             </li>
-            <li class="portfolio-item">
-              <button type="button" class="portfolio-button">Дизайн</button>
+            <li class="portfolio-item" id="portfolio-item">
+              <button type="button" class="portfolio-button" onclick="filterSelection('design')">Дизайн</button>
             </li>
-            <li class="portfolio-item">
-              <button type="button" class="portfolio-button">Маркетинг</button>
+            <li class="portfolio-item" id="portfolio-item">
+              <button type="button" class="portfolio-button" onclick="filterSelection('marketin')">Маркетинг</button>
             </li>
           </ul>
           <ul class="portfolio-list2">
-            <li class="portfolio-item2">
+            <li class="portfolio-item2 webs all">
               <img
                 src="./images-for-portfolio/technocrack.webp"
                 alt="technocrack"
@@ -92,7 +93,7 @@
               <h3 class="portfolio-text">Технокряк</h3>
               <p class="portfolio-subtext">Веб-сайт</p>
             </li>
-            <li class="portfolio-item2">
+            <li class="portfolio-item2 design all">
               <img
                 src="./images-for-portfolio/poster.webp"
                 alt="poster"
@@ -108,7 +109,7 @@
               <h3 class="portfolio-text">Постер New Orlean vs Golden Star</h3>
               <p class="portfolio-subtext">Дизайн</p>
             </li>
-            <li class="portfolio-item2">
+            <li class="portfolio-item2 apps all">
               <img
                 src="./images-for-portfolio/restauraunt.webp"
                 alt="restauraunt"
@@ -124,7 +125,7 @@
               <h3 class="portfolio-text">Ресторан Seafood</h3>
               <p class="portfolio-subtext">Додаток</p>
             </li>
-            <li class="portfolio-item2">
+            <li class="portfolio-item2 marketin all">
               <img
                 src="./images-for-portfolio/project-Prime.webp"
                 alt="project-Prime"
@@ -140,7 +141,7 @@
               <h3 class="portfolio-text">Проєкт Prime</h3>
               <p class="portfolio-subtext">Маркетинг</p>
             </li>
-            <li class="portfolio-item2">
+            <li class="portfolio-item2 apps all">
               <img
                 src="./images-for-portfolio/project-boxes.webp"
                 alt="project-boxes"
@@ -156,7 +157,7 @@
               <h3 class="portfolio-text">Проєкт Boxes</h3>
               <p class="portfolio-subtext">Додаток</p>
             </li>
-            <li class="portfolio-item2">
+            <li class="portfolio-item2 webs all">
               <img
                 src="./images-for-portfolio/inspiration.webp"
                 alt="Inspiration"
@@ -172,7 +173,7 @@
               <h3 class="portfolio-text">Inspiration has no Borders</h3>
               <p class="portfolio-subtext">Веб-сайт</p>
             </li>
-            <li class="portfolio-item2">
+            <li class="portfolio-item2 design all">
               <img
                 src="./images-for-portfolio/limited-Edition.webp"
                 alt="limited-Edition"
@@ -188,7 +189,7 @@
               <h3 class="portfolio-text">Видання Limited Edition</h3>
               <p class="portfolio-subtext">Дизайн</p>
             </li>
-            <li class="portfolio-item2">
+            <li class="portfolio-item2 marketin all">
               <img
                 src="./images-for-portfolio/project-lab.webp"
                 alt="project-lab"
@@ -204,7 +205,7 @@
               <h3 class="portfolio-text">Проєкт LAB</h3>
               <p class="portfolio-subtext">Маркетинг</p>
             </li>
-            <li class="portfolio-item2">
+            <li class="portfolio-item2 apps all">
               <img
                 src="./images-for-portfolio/growing-buisness.webp"
                 alt=""
@@ -304,5 +305,6 @@
         </ul>
       </div>
     </footer>
+    <script src="./js/filter.js"></script>
   </body>
 </html>

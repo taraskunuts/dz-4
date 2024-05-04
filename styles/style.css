@@ -23,7 +23,7 @@
 
 .top {
   background-color: var(--kiddo-ultra-white);
-  
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -41,7 +41,7 @@
   line-height: normal;
   letter-spacing: 0.78px;
   margin-top: 24px;
-    margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .top-span {
@@ -71,7 +71,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.top-link-now{
+.top-link-now {
   color: var(--text-color);
   font-size: 14px;
   font-weight: 500;
@@ -88,7 +88,6 @@
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: 0.28px;
-  
 }
 
 .top-link-now {
@@ -96,16 +95,15 @@
 }
 
 .top-link-now::after {
-  content: '';
+  content: "";
   height: 4px;
   width: 100%;
   border-radius: 2px;
-background-color: #2196F3;
-display: block;
-top: 43px;
-left:0 ;
-position: absolute;
-
+  background-color: #2196f3;
+  display: block;
+  top: 43px;
+  left: 0;
+  position: absolute;
 }
 
 .top-link {
@@ -118,7 +116,7 @@ position: absolute;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   padding-top: 32px;
-    padding-bottom: 32px;
+  padding-bottom: 32px;
 }
 
 .top-link:focus {
@@ -127,7 +125,6 @@ position: absolute;
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: 0.28px;
-  
 }
 
 .top-link:hover {
@@ -135,33 +132,30 @@ position: absolute;
 }
 
 .top-link:hover::after {
-  content: '';
+  content: "";
   height: 4px;
   width: 100%;
   border-radius: 2px;
-background-color: #2196F3;
-display: block;
-bottom:0 ;
-left:0 ;
-position: absolute;
-
+  background-color: #2196f3;
+  display: block;
+  bottom: 0;
+  left: 0;
+  position: absolute;
 }
 
 .top-link:focus::after {
-  content: '';
+  content: "";
   height: 4px;
   width: 100%;
   border-radius: 2px;
-background-color: #2196F3;
-display: block;
-top: 28px;
-left: 0;
-position: absolute;
-border: none;
-outline: none;
-
+  background-color: #2196f3;
+  display: block;
+  top: 28px;
+  left: 0;
+  position: absolute;
+  border: none;
+  outline: none;
 }
-
 
 .top-navigation {
   display: flex;
@@ -173,8 +167,6 @@ outline: none;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
 
 .top-telephone {
   color: var(--subtext-color);
@@ -192,7 +184,6 @@ outline: none;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
- 
 }
 
 .top-telephone:hover {
@@ -201,7 +192,6 @@ outline: none;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
-  
 }
 
 .top-info {
@@ -220,7 +210,6 @@ outline: none;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
-  
 }
 
 .top-info:hover {
@@ -229,7 +218,6 @@ outline: none;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
-  
 }
 
 .top-list {
@@ -248,12 +236,10 @@ outline: none;
 
 .top-item:hover .email {
   fill: #2196f3;
-  
 }
 
 .top-item:hover .phone {
   fill: #2196f3;
-  
 }
 
 .hero {
@@ -515,7 +501,6 @@ outline: none;
 
 .comand-svg-item:hover .comand-svg {
   fill: #fff;
-  
 }
 
 .comand-svg-item:hover {
@@ -544,12 +529,10 @@ outline: none;
   padding-bottom: 12px;
   border-radius: 50%;
   fill: #fff;
-  
 }
 
 .comand-svg-link:focus .comand-svg {
   fill: #fff;
-  
 }
 
 .comand-svg-item {
@@ -579,7 +562,6 @@ outline: none;
 }
 .customers-item:hover {
   border: 1px solid #2196f3;
-  
 }
 
 .customers-item:hover .customers-svg {
@@ -602,12 +584,10 @@ outline: none;
   border: 1px solid #2196f3;
   width: 170px;
   height: 92px;
-  
 }
 
 .customers-svg-link:focus .customers-svg {
   fill: #2196f3;
-  
 }
 
 .customers-list {
@@ -727,7 +707,7 @@ outline: none;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-svg-link{
+.footer-svg-link {
   width: 44px;
   height: 44px;
   text-align: center;
@@ -745,19 +725,16 @@ outline: none;
   background-color: rgba(255, 255, 255, 0.1);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
-  .footer-svg-link:focus {
-    outline: none;
+.footer-svg-link:focus {
+  outline: none;
   border: 1px solid #2196f3;
-  background-color:#2196f3 ;
-  }
-
-
+  background-color: #2196f3;
+}
 
 .footer-svg-item {
-  border-radius:  50%;
+  border-radius: 50%;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -766,7 +743,6 @@ outline: none;
   display: flex;
   gap: 70px;
 }
-
 
 .footer-subtext {
   color: #fff;
@@ -884,7 +860,6 @@ outline: none;
   border-color: #f5f4fa;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08),
     0 3px 1px 0 rgba(0, 0, 0, 0.1);
-    
 }
 
 .portfolio-button:focus {
@@ -899,7 +874,7 @@ outline: none;
   border-color: #f5f4fa;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08),
     0 3px 1px 0 rgba(0, 0, 0, 0.1);
-    transition-duration: 250ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -919,12 +894,12 @@ outline: none;
   overflow: hidden;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  display: none;
 }
 
 .portfolio-item2:hover {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-    
 }
 
 .portfolio-img {
@@ -956,7 +931,6 @@ outline: none;
 
 .portfolio-item2:hover .portfolio-overlay-holder {
   opacity: 1;
-  
 }
 
 .portfolio-overlay-holder {
@@ -987,6 +961,10 @@ outline: none;
   letter-spacing: 0.54px;
 }
 
+.show {
+  display: block;
+}
+
 .backdrop {
   display: flex;
   align-items: center;
@@ -1011,7 +989,7 @@ outline: none;
   padding-left: 41px;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
-    transition-duration: 250ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1151,7 +1129,6 @@ outline: none;
 
 .modal-close:hover .modal-top-svg {
   fill: var(--blue-color);
-  
 }
 
 .modal-top-svg {
@@ -1172,7 +1149,7 @@ outline: none;
   text-decoration-line: underline;
 }
 
-.modal-checkbox{
+.modal-checkbox {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
