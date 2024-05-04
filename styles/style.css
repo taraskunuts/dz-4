@@ -73,6 +73,8 @@
   line-height: 1.1;
   letter-spacing: 0.28px;
   position: relative;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .top-link:focus {
@@ -81,12 +83,11 @@
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: 0.28px;
+  
 }
 
 .top-link:hover {
   color: var(--blue-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .top-link:hover::after {
@@ -95,8 +96,6 @@
   width: 100%;
   border-radius: 2px;
 background-color: #2196F3;
-transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 display: block;
 top: 28px;
 left: 0;
@@ -115,8 +114,7 @@ left: 0;
 position: absolute;
 border: none;
 outline: none;
-transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 
@@ -127,6 +125,8 @@ transition-duration: 250ms;
   align-items: center;
   margin-right: 318px;
   margin-left: 93px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -137,6 +137,8 @@ transition-duration: 250ms;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .top-telephone:focus {
@@ -145,8 +147,7 @@ transition-duration: 250ms;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .top-telephone:hover {
@@ -155,8 +156,7 @@ transition-duration: 250ms;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .top-info {
@@ -165,6 +165,8 @@ transition-duration: 250ms;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .top-info:focus {
@@ -173,8 +175,7 @@ transition-duration: 250ms;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .top-info:hover {
@@ -183,8 +184,7 @@ transition-duration: 250ms;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .top-list {
@@ -197,18 +197,18 @@ transition-duration: 250ms;
   width: 170px;
   display: flex;
   align-items: center;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .top-item:hover .email {
   fill: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .top-item:hover .phone {
   fill: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .hero {
@@ -464,19 +464,18 @@ transition-duration: 250ms;
   width: 20px;
   height: 20px;
   fill: #afb1b8;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comand-svg-item:hover .comand-svg {
   fill: #fff;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .comand-svg-item:hover {
   background-color: #2196f3;
   border-radius: 50%;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comand-svg-link {
@@ -487,6 +486,8 @@ transition-duration: 250ms;
   padding-right: 12px;
   padding-bottom: 12px;
   border-radius: 50%;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comand-svg-link:focus {
@@ -498,14 +499,12 @@ transition-duration: 250ms;
   padding-bottom: 12px;
   border-radius: 50%;
   fill: #fff;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .comand-svg-link:focus .comand-svg {
   fill: #fff;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .comand-svg-item {
@@ -514,6 +513,8 @@ transition-duration: 250ms;
   text-align: center;
 
   border-radius: 50%;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .comand-svg-list {
   display: flex;
@@ -528,17 +529,16 @@ transition-duration: 250ms;
   width: 106px;
   height: 60px;
   fill: grey;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-item:hover {
   border: 1px solid #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .customers-item:hover .customers-svg {
   fill: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-svg-link {
@@ -548,6 +548,8 @@ transition-duration: 250ms;
   padding-bottom: 16px;
   padding-left: 32px;
   padding-right: 32px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-svg-link:focus {
@@ -555,14 +557,12 @@ transition-duration: 250ms;
   border: 1px solid #2196f3;
   width: 170px;
   height: 92px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .customers-svg-link:focus .customers-svg {
   fill: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .customers-list {
@@ -577,6 +577,8 @@ transition-duration: 250ms;
   height: 92px;
   border-radius: 4px;
   border: 1px solid #afb1b8;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-title {
@@ -654,8 +656,6 @@ transition-duration: 250ms;
 
 .footer-svg-item:hover .footer-svg {
   fill: #fff;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-svg-list {
@@ -698,6 +698,8 @@ transition-duration: 250ms;
   padding-bottom: 12px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -705,14 +707,14 @@ transition-duration: 250ms;
     outline: none;
   border: 1px solid #2196f3;
   background-color:#2196f3 ;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
 
 
 .footer-svg-item {
   border-radius:  50%;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-container {
@@ -761,8 +763,6 @@ transition-duration: 250ms;
 
 .footer-svg-link:focus .footer-svg {
   fill: #fff;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-button {
@@ -823,6 +823,8 @@ transition-duration: 250ms;
   padding-bottom: 6px;
   padding-left: 22px;
   padding-right: 22px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-button:hover {
@@ -837,8 +839,7 @@ transition-duration: 250ms;
   border-color: #f5f4fa;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08),
     0 3px 1px 0 rgba(0, 0, 0, 0.1);
-    transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .portfolio-button:focus {
@@ -871,13 +872,14 @@ transition-duration: 250ms;
   width: calc((100% - (2 * 30px)) / 3);
   position: relative;
   overflow: hidden;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item2:hover {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-    transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .portfolio-img {
@@ -909,8 +911,7 @@ transition-duration: 250ms;
 
 .portfolio-item2:hover .portfolio-overlay-holder {
   opacity: 1;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .portfolio-overlay-holder {
@@ -926,6 +927,8 @@ transition-duration: 250ms;
   background-color: rgba(33, 150, 243, 0.9);
   padding-left: 24px;
   padding-right: 24px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .porftolio-overlay-text {
@@ -963,6 +966,8 @@ transition-duration: 250ms;
   padding-left: 41px;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+    transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-title {
@@ -996,18 +1001,16 @@ transition-duration: 250ms;
   border: 1px solid rgba(33, 33, 33, 0.2);
   display: flex;
   justify-content: center;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-label:hover {
   border: 1px solid #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-label:hover .modal-svg {
   fill: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input {
@@ -1023,6 +1026,8 @@ transition-duration: 250ms;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   padding: 12px 16px 82px 16px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-label-big:hover {
@@ -1032,8 +1037,6 @@ transition-duration: 250ms;
   border-radius: 4px;
   border: 1px solid #2196f3;
   padding: 12px 16px 82px 16px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-text {
@@ -1044,6 +1047,8 @@ transition-duration: 250ms;
 .modal-svg {
   width: 18px;
   height: 18px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input-big {
@@ -1095,17 +1100,20 @@ transition-duration: 250ms;
   flex-shrink: 0;
   margin-left: auto;
   padding: 6px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close:hover .modal-top-svg {
   fill: var(--blue-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .modal-top-svg {
   width: 18px;
   height: 18px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-span {
@@ -1117,6 +1125,11 @@ transition-duration: 250ms;
   line-height: 24px;
   letter-spacing: 0.42px;
   text-decoration-line: underline;
+}
+
+.modal-checkbox{
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .is-hidden {
