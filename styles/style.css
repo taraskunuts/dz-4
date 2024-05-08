@@ -138,18 +138,27 @@
   color: var(--blue-color);
 }
 
-
-.top-link:hover::after {
+.top-link::after{
+  
   content: "";
   height: 4px;
   width: 100%;
   border-radius: 2px;
   background-color: #2196f3;
-  display: block;
+  opacity: 0;
   bottom: 0;
   left: 0;
   position: absolute;
+  display: block;
+  transition-property: opacity, transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transform: scale(0);
+}
 
+.top-link:hover::after {
+  opacity: 1;
+  transform: scale(1);
 }
 
 
@@ -945,6 +954,7 @@
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
+  color: pin;
 }
 
 .portfolio-item2:hover .portfolio-overlay-holder {
@@ -1145,8 +1155,13 @@
   padding: 6px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: transform;
 }
 
+
+.modal-close:hover {
+  transform: rotate(360deg);
+}
 .modal-close:hover .modal-top-svg {
   fill: var(--blue-color);
 }
@@ -1156,6 +1171,7 @@
   height: 18px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: fill;
 }
 
 .modal-span {
