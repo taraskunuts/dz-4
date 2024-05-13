@@ -959,13 +959,14 @@
 
 .portfolio-item2:hover .portfolio-overlay-holder {
   opacity: 1;
+  transform: translateY(-25%);
 }
 
 .portfolio-overlay-holder {
   opacity: 0;
   position: absolute;
   height: 294px;
-  top: 0;
+  top: 18.5%;
   left: 0;
   display: flex;
   align-items: center;
@@ -976,7 +977,7 @@
   padding-right: 24px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: opacity;
+  transition-property: opacity, transform;
 }
 
 .porftolio-overlay-text {
@@ -1005,6 +1006,7 @@
   top: 0px;
   backdrop-filter: 1px;
   background-color: rgba(0, 0, 0, 0.2);
+  transition: opacity 1s ease , visibility 1s ease;
 }
 
 .modal {
@@ -1018,6 +1020,13 @@
   padding-left: 41px;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+    
+  transition: transform 1s ease;
+
+}
+
+.backdrop.is-hidden .modal{
+  transform:  scale(1) rotate(0);
 }
 
 .modal-title {
