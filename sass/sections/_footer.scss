@@ -1,0 +1,204 @@
+.footer {
+    background-color: var(--bg-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  .footer-tel-mail {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .footer-title {
+    color: var(--blue-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+  }
+  
+  .footer-span {
+    color: var(--kiddo-ultra-white);
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+  }
+  
+  .footer-address {
+    color: var(--kiddo-ultra-white);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+  
+  .footer-mailto {
+    color: var(--footer-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    margin-bottom: 8px;
+  }
+  
+  .footer-telephone {
+    color: var(--footer-color);
+  
+    font-size: 14px;
+  
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+  }
+  
+  .footer-svg-item:hover .footer-svg {
+    fill: #fff;
+  }
+  
+  .footer-svg-list {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .footer-svg {
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: fill;
+  }
+  
+  .footer-svg-item:hover {
+    background-color: #2196f3;
+    border-radius: 50%;
+  }
+  .footer-svg-item:focus {
+    background-color: #2196f3;
+    border-radius: 50%;
+  }
+  
+  .footer-svg-link {
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: border,background-color;
+  }
+  
+  .footer-svg-link:focus {
+    outline: none;
+    border: 1px solid #2196f3;
+    background-color: #2196f3;
+  }
+  
+  .footer-svg-item {
+    border-radius: 50%;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: border-radius,background-color;
+  }
+  
+  .footer-container {
+    display: flex;
+    gap: 70px;
+  }
+  
+  .footer-subtext {
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-right: 90px;
+  }
+  
+  .footer-input-holder {
+    width: 358px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  
+    background: rgba(33, 150, 243, 0);
+  
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    
+  }
+  
+  
+  
+  .footer-input {
+    background-color: #2f303a;
+    outline: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .footer-emailinput-holder {
+    display: flex;
+    animation-name: animation-footer-input-holder;
+    animation-timing-function: linear;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
+  
+  .footer-svg-link:focus .footer-svg {
+    fill: #fff;
+  }
+  
+  .footer-button {
+    margin-left: 12px;
+    border-radius: 4px;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    width: 200px;
+    height: 50px;
+    border: none;
+    color: #fff;
+  
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.96px;
+    fill: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .footer-button-svg {
+    width: 24px;
+    height: 24px;
+  }

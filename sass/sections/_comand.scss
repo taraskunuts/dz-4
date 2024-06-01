@@ -1,0 +1,121 @@
+.comand {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--background-command);
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .comand-title {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
+  }
+  
+  .comand-img {
+    width: 270px;
+    height: 260px;
+  }
+  
+  .comand-text {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.48px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .comand-subtext {
+    color: var(--subtext-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.48px;
+  }
+  
+  .comand-list {
+    height: 428px;
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+  }
+  
+  .comand-item {
+    background-color: var(--kiddo-ultra-white);
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+      0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  
+  }
+  
+  .comand-svg {
+    width: 20px;
+    height: 20px;
+    fill: #afb1b8;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: fill;
+  }
+  
+  .comand-svg-item:hover .comand-svg {
+    fill: #fff;
+  }
+  
+  .comand-svg-item:hover {
+    background-color: #2196f3;
+    border-radius: 50%;
+  }
+  
+  .comand-svg-link {
+    display: flex;
+  
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    border-radius: 50%;
+    transition-duration: 250ms, 5s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: background-color,fill;
+  }
+  
+  .comand-svg-link:focus {
+    outline: none;
+    background-color: #2196f3;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    border-radius: 50%;
+    fill: #fff;
+  }
+  
+  .comand-svg-link:focus .comand-svg {
+    fill: #fff;
+  }
+  
+  .comand-svg-item {
+    width: 44px;
+    height: 44px;
+    text-align: center;
+  
+    border-radius: 50%;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: background-color,border-radius;
+  }
+  .comand-svg-list {
+    display: flex;
+    gap: 10px;
+    margin-top: 16px;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 30px;
+  }
