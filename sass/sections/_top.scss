@@ -1,5 +1,5 @@
 .top {
-    background-color: var(--kiddo-ultra-white);
+    background-color: $kiddo-ultra-white;
   
     margin-left: auto;
     margin-right: auto;
@@ -11,7 +11,7 @@
   }
   
   .top-title {
-    color: var(--blue-color);
+    color: $blue-color;
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
@@ -22,7 +22,7 @@
   }
   
   .top-span {
-    color: var(--black-color);
+    color: $black-color;
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
@@ -53,7 +53,7 @@
   }
   
   .top-link-now {
-    color: var(--text-color);
+    color: $text-color;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.1;
@@ -65,7 +65,7 @@
   }
   
   .top-link-now:focus {
-    color: var(--blue-color);
+    color: $blue-color;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.1;
@@ -73,7 +73,7 @@
   }
   
   .top-link-now {
-    color: var(--blue-color);
+    color: $blue-color;
   }
   
   .top-link-now::after {
@@ -90,7 +90,7 @@
   }
   
   .top-link {
-    color: var(--text-color);
+    color: $text-color;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.1;
@@ -104,7 +104,7 @@
   }
   
   .top-link:focus {
-    color: var(--blue-color);
+    color: $blue-color;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.1;
@@ -112,7 +112,7 @@
   }
   
   .top-link:hover {
-    color: var(--blue-color);
+    color: $blue-color;
   }
   
   .top-link::after{
@@ -163,7 +163,7 @@
   }
   
   .top-telephone {
-    color: var(--subtext-color);
+    color: $subtext-color ;
     font-size: 14px;
     font-weight: 500;
     line-height: normal;
@@ -190,7 +190,7 @@
   }
   
   .top-info {
-    color: var(--subtext-color);
+    color: $subtext-color;
     font-size: 14px;
     font-weight: 500;
     line-height: normal;

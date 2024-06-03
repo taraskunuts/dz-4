@@ -1,5 +1,5 @@
 .footer {
-    background-color: var(--bg-color);
+    background-color: $bg-color;
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -11,7 +11,7 @@
   }
   
   .footer-title {
-    color: var(--blue-color);
+    color: $blue-color;
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
@@ -20,7 +20,7 @@
   }
   
   .footer-span {
-    color: var(--kiddo-ultra-white);
+    color: $kiddo-ultra-white;
     font-family: Raleway;
     font-size: 26px;
     font-style: normal;
@@ -30,7 +30,7 @@
   }
   
   .footer-address {
-    color: var(--kiddo-ultra-white);
+    color: $kiddo-ultra-white;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -41,7 +41,7 @@
   }
   
   .footer-mailto {
-    color: var(--footer-color);
+    color: $footer-color;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -50,7 +50,7 @@
   }
   
   .footer-telephone {
-    color: var(--footer-color);
+    color: $footer-color;
   
     font-size: 14px;
   

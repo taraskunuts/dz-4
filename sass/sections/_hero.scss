@@ -1,7 +1,7 @@
 .hero {
     margin-left: auto;
     margin-right: auto;
-    background-color: var(--bg-color);
+    background-color: $bg-color;
     padding-top: 200px;
     padding-bottom: 200px;
     max-width: 1600px;
@@ -22,7 +22,7 @@
   }
   
   .hero-title {
-    color: var(--kiddo-ultra-white);
+    color: $kiddo-ultra-white;
     text-align: center;
     font-size: 44px;
     font-weight: 900;
@@ -34,8 +34,8 @@
   }
   
   .hero-button {
-    background-color: var(--blue-color);
-    color: var(--kiddo-ultra-white);
+    background-color: $blue-color;
+    color: $kiddo-ultra-white;
     text-align: center;
     font-size: 16px;
     font-weight: 700;
@@ -49,5 +49,5 @@
   }
   
   .gigabox {
-    background-color: var(--kiddo-ultra-white);
+    background-color: $kiddo-ultra-white;
   }

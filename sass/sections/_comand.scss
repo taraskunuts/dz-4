@@ -1,13 +1,13 @@
 .comand {
     margin-left: auto;
     margin-right: auto;
-    background-color: var(--background-command);
+    background-color: $background-command;
     padding-top: 94px;
     padding-bottom: 94px;
   }
   
   .comand-title {
-    color: var(--text-color);
+    color: $text-color;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -22,7 +22,7 @@
   }
   
   .comand-text {
-    color: var(--text-color);
+    color: $text-color;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
@@ -33,7 +33,7 @@
   }
   
   .comand-subtext {
-    color: var(--subtext-color);
+    color: $subtext-color;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
@@ -49,7 +49,7 @@
   }
   
   .comand-item {
-    background-color: var(--kiddo-ultra-white);
+    background-color: $kiddo-ultra-white;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
       0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   
