@@ -1,4 +1,7 @@
-.customers-svg {
+.customers {
+  
+
+  &__svg {
     width: 106px;
     height: 60px;
     fill: #afb1b8;
@@ -7,23 +10,23 @@
     transition-property: fill, transform;
   }
   
-  .customers-item{
+  &__item{
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: border, transform;
   }
   
-  .customers-item:hover {
+  &__item:hover {
     border: 1px solid #2196f3;
     transform: rotate(360deg);
   }
   
-  .customers-item:hover .customers-svg {
+  &__item:hover &__svg {
     fill: #2196f3;
     transform: rotate(360deg);
   }
   
-  .customers-svg-link {
+  &__svg-link {
     width: 170px;
     height: 92px;
     padding-top: 16px;
@@ -34,24 +37,24 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .customers-svg-link:focus {
+  &__svg-link:focus {
     outline: none;
     border: 1px solid #2196f3;
     width: 170px;
     height: 92px;
   }
   
-  .customers-svg-link:focus .customers-svg {
+  &__svg-link:focus &__svg {
     fill: #2196f3;
   }
   
-  .customers-list {
+  &__list {
     display: flex;
     gap: 30px;
     padding-bottom: 94px;
   }
   
-  .customers-item {
+  &__item {
     display: flex;
     width: 170px;
     height: 92px;
@@ -62,7 +65,7 @@
     transition-property: border;
   }
   
-  .customers-title {
+  &__title {
     text-align: center;
     font-family: Roboto;
     font-size: 36px;
@@ -73,3 +76,5 @@
     padding-top: 94px;
     margin-bottom: 50px;
   }
+}
+

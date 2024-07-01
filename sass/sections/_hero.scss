@@ -1,28 +1,26 @@
 .hero {
-    margin-left: auto;
-    margin-right: auto;
-    background-color: $bg-color;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    max-width: 1600px;
-    height: 600px;
-    background-image: linear-gradient(
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url("../images/hero-background.webp");
-  }
-  
-  .hero-container {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  max-width: 1600px;
+  height: 600px;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ), url("../../images/hero-background.webp");
+
+  &__container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
   }
-  
-  .hero-title {
-    color: $kiddo-ultra-white;
+
+  &__title {
+    color: #fff;
     text-align: center;
     font-size: 44px;
     font-weight: 900;
@@ -32,10 +30,10 @@
     width: 696px;
     height: 120px;
   }
-  
-  .hero-button {
-    background-color: $blue-color;
-    color: $kiddo-ultra-white;
+
+  &__button {
+    background-color: #2196f3;
+    color: #fff;
     text-align: center;
     font-size: 16px;
     font-weight: 700;
@@ -47,7 +45,6 @@
     border-radius: 4px;
     border: none;
   }
-  
-  .gigabox {
-    background-color: $kiddo-ultra-white;
-  }
+}
+
+

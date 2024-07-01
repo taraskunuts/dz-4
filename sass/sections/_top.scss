@@ -1,17 +1,16 @@
 .top {
-    background-color: $kiddo-ultra-white;
-  
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .top-container {
+  background-color: var($kiddo-ultra-white);
+
+  margin-left: auto;
+  margin-right: auto;
+
+  &__container {
     display: flex;
     flex-direction: row;
   }
-  
-  .top-title {
-    color: $blue-color;
+
+  &__title {
+    color: #2196f3;
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
@@ -20,40 +19,17 @@
     margin-top: 24px;
     margin-bottom: 24px;
   }
-  
-  .top-span {
-    color: $black-color;
+
+  &__span {
+    color: var($black-color);
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
   }
-  
-  .email {
-    width: 16px;
-    height: 12px;
-    display: inline;
-    fill: #afb1b8;
-    margin-right: 10px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: fill;
-  }
-  
-  .phone {
-    width: 10px;
-    height: 16px;
-    display: inline;
-    fill: #afb1b8;
-    margin-right: 10px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: fill;
-  }
-  
-  .top-link-now {
-    color: $text-color;
+  &__link-now {
+    color: var($text-color);
     font-size: 14px;
     font-weight: 500;
     line-height: 1.1;
@@ -63,20 +39,20 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: color;
   }
-  
-  .top-link-now:focus {
-    color: $blue-color;
+
+  &__link-now:focus {
+    color: #2196f3;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: 0.28px;
   }
-  
-  .top-link-now {
-    color: $blue-color;
+
+  &__link-now {
+    color: #2196f3;
   }
-  
-  .top-link-now::after {
+
+  &__link-now::after {
     content: "";
     height: 4px;
     width: 100%;
@@ -86,11 +62,10 @@
     top: 43px;
     left: 0;
     position: absolute;
-    
   }
-  
-  .top-link {
-    color: $text-color;
+
+  &__link {
+    color: var($text-color);
     font-size: 14px;
     font-weight: 500;
     line-height: 1.1;
@@ -98,25 +73,24 @@
     position: relative;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: color , background-color;
+    transition-property: color, background-color;
     padding-top: 32px;
     padding-bottom: 32px;
   }
-  
-  .top-link:focus {
-    color: $blue-color;
+
+  &__link:focus {
+    color: #2196f3;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: 0.28px;
   }
-  
-  .top-link:hover {
-    color: $blue-color;
+
+  &__link:hover {
+    color: #2196f3;
   }
-  
-  .top-link::after{
-    
+
+  &__link::after {
     content: "";
     height: 4px;
     width: 100%;
@@ -132,14 +106,34 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transform: scale(0);
   }
-  
-  .top-link:hover::after {
+  &__email {
+    width: 16px;
+    height: 12px;
+    display: inline;
+    fill: #afb1b8;
+    margin-right: 10px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: fill;
+  }
+
+  &__phone {
+    width: 10px;
+    height: 16px;
+    display: inline;
+    fill: #afb1b8;
+    margin-right: 10px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: fill;
+  }
+
+  &__link:hover::after {
     opacity: 1;
     transform: scale(1);
   }
-  
-  
-  .top-link:focus::after {
+
+  &__link:focus::after {
     content: "";
     height: 4px;
     width: 100%;
@@ -152,8 +146,8 @@
     border: none;
     outline: none;
   }
-  
-  .top-navigation {
+
+  &__navigation {
     display: flex;
     gap: 50px;
     justify-content: center;
@@ -161,9 +155,9 @@
     margin-right: 318px;
     margin-left: 93px;
   }
-  
-  .top-telephone {
-    color: $subtext-color ;
+
+  &__telephone {
+    color: var($subtext-color);
     font-size: 14px;
     font-weight: 500;
     line-height: normal;
@@ -172,25 +166,25 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: color;
   }
-  
-  .top-telephone:focus {
+
+  &__telephone:focus {
     color: #2196f3;
     font-size: 14px;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
   }
-  
-  .top-telephone:hover {
+
+  &__telephone:hover {
     color: #2196f3;
     font-size: 14px;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
   }
-  
-  .top-info {
-    color: $subtext-color;
+
+  &__info {
+    color: var($subtext-color);
     font-size: 14px;
     font-weight: 500;
     line-height: normal;
@@ -199,30 +193,30 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: color;
   }
-  
-  .top-info:focus {
+
+  &__info:focus {
     color: #2196f3;
     font-size: 14px;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
   }
-  
-  .top-info:hover {
+
+  &__info:hover {
     color: #2196f3;
     font-size: 14px;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
   }
-  
-  .top-list {
+
+  &__list {
     display: flex;
     align-items: center;
     gap: 30px;
   }
-  
-  .top-item {
+
+  &__item {
     width: 170px;
     display: flex;
     align-items: center;
@@ -230,11 +224,12 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: fill;
   }
-  
-  .top-item:hover .email {
+
+  &__item:hover &__email {
     fill: #2196f3;
   }
-  
-  .top-item:hover .phone {
+
+  &__item:hover &__phone {
     fill: #2196f3;
   }
+}
