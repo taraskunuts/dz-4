@@ -1,8 +1,13 @@
-h1, h2, h3, p, a {
+h1,
+h2,
+h3,
+p,
+a {
   margin: 0;
 }
 
-li, ul {
+li,
+ul {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -38,12 +43,12 @@ img {
 }
 
 #bigbox {
-  background-color: var(#fff);
+  background-color: #fff;
   font-family: Roboto;
 }
 
 .top {
-  background-color: var(#fff);
+  background-color: #fff;
   margin-left: auto;
   margin-right: auto;
 }
@@ -62,7 +67,7 @@ img {
   margin-bottom: 24px;
 }
 .top__span {
-  color: var(#000);
+  color: #000;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -70,7 +75,7 @@ img {
   letter-spacing: 0.78px;
 }
 .top__link-now {
-  color: var(#212121);
+  color: #212121;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.1;
@@ -102,7 +107,7 @@ img {
   position: absolute;
 }
 .top__link {
-  color: var(#212121);
+  color: #212121;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.1;
@@ -144,7 +149,7 @@ img {
   width: 16px;
   height: 12px;
   display: inline;
-  fill: #afb1b8;
+  fill: #757575;
   margin-right: 10px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -154,7 +159,7 @@ img {
   width: 10px;
   height: 16px;
   display: inline;
-  fill: #afb1b8;
+  fill: #757575;
   margin-right: 10px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -186,7 +191,7 @@ img {
   margin-left: 93px;
 }
 .top__telephone {
-  color: var(#757575);
+  color: #757575;
   font-size: 14px;
   font-weight: 500;
   line-height: normal;
@@ -210,7 +215,7 @@ img {
   letter-spacing: 0.28px;
 }
 .top__info {
-  color: var(#757575);
+  color: #757575;
   font-size: 14px;
   font-weight: 500;
   line-height: normal;
@@ -607,7 +612,7 @@ img {
   flex-wrap: wrap;
 }
 .footer__title {
-  color: var(#2196f3);
+  color: #2196f3;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -615,7 +620,7 @@ img {
   letter-spacing: 0.78px;
 }
 .footer__span {
-  color: var(#fff);
+  color: #fff;
   font-family: Raleway;
   font-size: 26px;
   font-style: normal;
@@ -624,7 +629,7 @@ img {
   letter-spacing: 0.78px;
 }
 .footer__address {
-  color: var(#fff);
+  color: #fff;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -634,7 +639,7 @@ img {
   margin-bottom: 8px;
 }
 .footer__mailto {
-  color: var(rgba(255, 255, 255, 0.6));
+  color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -642,7 +647,7 @@ img {
   margin-bottom: 8px;
 }
 .footer__telephone {
-  color: var(rgba(255, 255, 255, 0.6));
+  color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -886,9 +891,9 @@ img {
 }
 .modal__button {
   border-radius: 4px;
-  background: var(#2196f3);
+  background: #2196f3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  color: var(#fff);
+  color: #fff;
   text-align: center;
   font-family: "Roboto";
   font-size: 16px;
@@ -926,7 +931,7 @@ img {
   transform: rotate(360deg);
 }
 .modal__close:hover .modal__top-svg {
-  fill: var(#2196f3);
+  fill: #2196f3;
 }
 .modal__top-svg {
   width: 18px;
