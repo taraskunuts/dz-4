@@ -1,6 +1,7 @@
 @import "./utilities/variables";
-@import "./base/reset";
 @import "./utilities/keyframes";
+@import "./utilities/mixin";
+@import "./base/reset";
 @import "./base/common";
 @import "./sections/top";
 @import "./sections/hero";
@@ -10,4 +11,4 @@
 @import "./sections/customers";
 @import "./sections/footer";
 @import "./components/modal";
-@import "./utilities/mixin";
+

@@ -1,9 +1,9 @@
 @import "./utilities/variables";
-@import "./base/common";
 @import "./utilities/keyframes";
+@import "./utilities/mixin";
+@import "./base/common";
 @import "./base/reset";
 @import "./sections/top";
 @import "./sections/portfolio";
 @import "./sections/footer";
 @import "./components/filter";
-@import "./utilities/mixin";

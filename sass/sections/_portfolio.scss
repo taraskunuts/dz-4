@@ -5,10 +5,7 @@
   border-top: 1px solid #ececec;
 
   &__list {
-    display: flex;
-    gap: 8px;
-    align-items: center;
-    justify-content: center;
+    @include flexbox($gapper:7px);
     margin-bottom: 50px;
   }
 
@@ -61,11 +58,7 @@
   }
 
   &__list2 {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
+    @include flexbox($gapper: 30px, $wrapper: wrap );
   }
 
   &__item2 {
@@ -76,7 +69,8 @@
     overflow: hidden;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: box-shadow;  }
+    transition-property: box-shadow;
+  }
 
   &__item2:hover {
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
@@ -100,7 +94,7 @@
   }
 
   &__subtext {
-    color:$subtext-color;
+    color: $subtext-color;
     font-size: 16px;
     font-weight: 400;
     line-height: 30px; /* 187.5% */
@@ -122,8 +116,7 @@
     height: 294px;
     top: 18.5%;
     left: 0;
-    display: flex;
-    align-items: center;
+    @include flexbox();
     width: 370px;
     height: 294px;
     background-color: rgba(33, 150, 243, 0.9);

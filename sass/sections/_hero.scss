@@ -9,7 +9,8 @@
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
-    ), url("../../images/hero-background.webp");
+    ),
+    url("../../images/hero-background.webp");
 
   &__container {
     display: flex;
@@ -46,5 +47,3 @@
     border: none;
   }
 }
-
-

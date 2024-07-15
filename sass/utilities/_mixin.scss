@@ -1,7 +1,12 @@
-@mixin flex($align-center: center, $justify-center: center, $gap: 0px, $wrap: nowrap){
-    display: flex;
-    align-items: $align-center;
-    justify-content: $justify-center;
-    gap: $gap;
-    flex-wrap: $wrap;
+@mixin flexbox(
+  $align-vertical: center,
+  $align-gorizontal: center,
+  $gapper: 0px,
+  $wrapper: nowrap
+) {
+  display: flex;
+  align-items: $align-vertical;
+  justify-content: $align-gorizontal;
+  gap: $gapper;
+  flex-wrap: $wrapper;
 }

@@ -4,7 +4,7 @@
   margin-right: auto;
 
   &__container {
-    display: flex;
+    @include flexbox();
     flex-direction: row;
   }
 
@@ -211,15 +211,12 @@
   }
 
   &__list {
-    display: flex;
-    align-items: center;
-    gap: 30px;
+    @include flexbox($gapper:30px);
   }
 
   &__item {
     width: 170px;
-    display: flex;
-    align-items: center;
+    @include flexbox();
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: fill;

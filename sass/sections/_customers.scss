@@ -1,6 +1,4 @@
 .customers {
-  
-
   &__svg {
     width: 106px;
     height: 60px;
@@ -9,23 +7,23 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: fill, transform;
   }
-  
-  &__item{
+
+  &__item {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: border, transform;
   }
-  
+
   &__item:hover {
     border: 1px solid #2196f3;
     transform: rotate(360deg);
   }
-  
+
   &__item:hover &__svg {
     fill: #2196f3;
     transform: rotate(360deg);
   }
-  
+
   &__svg-link {
     width: 170px;
     height: 92px;
@@ -36,26 +34,25 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
+
   &__svg-link:focus {
     outline: none;
     border: 1px solid #2196f3;
     width: 170px;
     height: 92px;
   }
-  
+
   &__svg-link:focus &__svg {
     fill: #2196f3;
   }
-  
+
   &__list {
-    display: flex;
-    gap: 30px;
     padding-bottom: 94px;
+    @include flexbox($gapper:30px);
   }
-  
+
   &__item {
-    display: flex;
+    
     width: 170px;
     height: 92px;
     border-radius: 4px;
@@ -63,8 +60,9 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: border;
+    @include flexbox();
   }
-  
+
   &__title {
     text-align: center;
     font-family: Roboto;
@@ -77,4 +75,3 @@
     margin-bottom: 50px;
   }
 }
-
