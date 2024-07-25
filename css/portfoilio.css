@@ -280,8 +280,19 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .top__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 30px;
     flex-wrap: nowrap;
+    flex-direction: row;
   }
 }
 .top__item {

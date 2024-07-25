@@ -220,10 +220,12 @@
   &__list {
     display: none;
     @media screen and (min-width: 768px){
-      @include flexbox($gapper:30px);
+      @include flexbox($gapper:10px);
+      flex-direction: column;
     }
     @media screen and (min-width: 1200px){
-      
+      @include flexbox($gapper:30px);
+      flex-direction: row;
     }
   }
 
