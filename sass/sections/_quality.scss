@@ -164,15 +164,17 @@
   &__list {
     @include flexbox($gapper: 30px);
     flex-direction: column;
+    padding-top: 60px;
     @media screen and (min-width: 768px){
       // @include flexbox($gapper: 30px);
       display: flex;
       flex-wrap: wrap;
-      height: 480px;
+      height: 768px;
     }
     @media screen and (min-width: 1200px) {
       @include flexbox($gapper: 30px);
       flex-direction: row;
+      padding-top: 94px;
     }
   }
 

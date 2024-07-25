@@ -64,25 +64,11 @@ img {
 
 .top {
   background-color: #fff;
-  padding-top: 16px;
-  padding-bottom: 16px;
-}
-@media screen and (min-width: 768px) {
-  .top {
-    padding-top: 26px;
-    padding-bottom: 26px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .top {
-    padding-top: 24px;
-    padding-bottom: 25px;
-  }
 }
 .top__container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 0px;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -220,7 +206,7 @@ img {
     justify-content: center;
     gap: 50px;
     flex-wrap: nowrap;
-    margin-right: 318px;
+    margin-right: auto;
     margin-left: 93px;
   }
 }
@@ -315,14 +301,12 @@ img {
 
 .hero {
   background-color: #2f303a;
-  height: 400px;
   padding-top: 118px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hero-background.webp");
 }
 @media screen and (min-width: 768px) {
   .hero {
     background-color: #2f303a;
-    height: 400px;
     padding-top: 118px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hero-background.webp");
   }
@@ -334,7 +318,6 @@ img {
     background-color: #2f303a;
     padding-top: 200px;
     padding-bottom: 200px;
-    height: 600px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hero-background.webp");
   }
 }
@@ -590,12 +573,13 @@ img {
   gap: 30px;
   flex-wrap: nowrap;
   flex-direction: column;
+  padding-top: 60px;
 }
 @media screen and (min-width: 768px) {
   .quality__list {
     display: flex;
     flex-wrap: wrap;
-    height: 480px;
+    height: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -606,6 +590,7 @@ img {
     gap: 30px;
     flex-wrap: nowrap;
     flex-direction: row;
+    padding-top: 94px;
   }
 }
 .quality__item {

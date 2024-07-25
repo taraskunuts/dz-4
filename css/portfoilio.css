@@ -64,25 +64,11 @@ img {
 
 .top {
   background-color: #fff;
-  padding-top: 16px;
-  padding-bottom: 16px;
-}
-@media screen and (min-width: 768px) {
-  .top {
-    padding-top: 26px;
-    padding-bottom: 26px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .top {
-    padding-top: 24px;
-    padding-bottom: 25px;
-  }
 }
 .top__container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 0px;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -220,7 +206,7 @@ img {
     justify-content: center;
     gap: 50px;
     flex-wrap: nowrap;
-    margin-right: 318px;
+    margin-right: auto;
     margin-left: 93px;
   }
 }

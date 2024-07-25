@@ -1,20 +1,14 @@
 .top {
   background-color: $kiddo-ultra-white;
-  padding-top: 16px;
-  padding-bottom: 16px;
   @media screen and (min-width: 768px){
-  padding-top: 26px;
-  padding-bottom: 26px;
   }
 
   @media screen and (min-width: 1200px){
-    padding-top: 24px;
-    padding-bottom: 25px;
   }
   
 
   &__container {
-    @include flexbox();
+    @include flexbox($align-gorizontal: flex-start);
     flex-direction: row;
   }
 
@@ -155,7 +149,7 @@
     display: none;
     @media screen and (min-width: 768px){
       @include flexbox ($gapper: 50px);
-    margin-right: 318px;
+    margin-right: auto;
     margin-left: 93px;
     }
     @media screen and (min-width: 1200px) {
