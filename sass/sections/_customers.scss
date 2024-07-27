@@ -9,9 +9,17 @@
   }
 
   &__item {
+    width: 210px;
+    height: 92px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: border, transform;
+    @media screen and (min-width:768px){
+      width: 226px;
+    }
+    @media screen and (min-width:1200px){
+      width: 170px;
+    }
   }
 
   &__item:hover {
@@ -47,8 +55,13 @@
   }
 
   &__list {
-    padding-bottom: 94px;
+    
+    padding-bottom: 60px;
+    @include flexbox($gapper:30px, $wrapper:wrap);
+    @media screen and (min-width:1200px){
+      padding-bottom: 94px;
     @include flexbox($gapper:30px);
+    }
   }
 
   &__item {

@@ -16,8 +16,16 @@
   }
 
   &__img {
-    width: 270px;
-    height: 260px;
+    width: 450px;
+    height: 460px;
+    @media screen and (min-width: 768px) {
+      width: 354px;
+      height: 374px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+      height: 260px;
+    }
   }
 
   &__text {
@@ -41,15 +49,30 @@
   }
 
   &__list {
-    height: 428px;
-    flex-direction: row;
+    flex-direction: column;
     @include flexbox($gapper: 30px);
+    @media screen and (min-width:768px){
+      @include flexbox($gapper: 30px, $wrapper:wrap);
+      flex-direction: unset;
+    }
+    @media screen and (min-width: 1200px) {
+      height: 428px;
+      flex-direction: row;
+      @include flexbox($gapper: 30px);
+    }
   }
 
   &__item {
     background-color: $kiddo-ultra-white;
+    height: 622px;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
       0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+      @media screen and (min-width:768px){
+        height: 536px;
+      }
+    @media screen and (min-width: 1200px) {
+      height: 428px;
+    }
   }
 
   &__svg {
@@ -108,11 +131,10 @@
     transition-property: background-color, border-radius;
   }
   &__svg-list {
-    
     margin-top: 16px;
     margin-left: 32px;
     margin-right: 32px;
     margin-bottom: 30px;
-    @include flexbox($gapper:10px);
+    @include flexbox($gapper: 10px);
   }
 }

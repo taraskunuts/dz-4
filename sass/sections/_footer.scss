@@ -2,19 +2,35 @@
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+  
+
+  &_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
   &__tel-mail {
     flex-direction: column;
+    @include flexbox($wrapper: wrap, $gapper:8px);
+    @media screen and (min-width:1200px){
     @include flexbox($wrapper: wrap);
+    }
   }
 
   &__title {
+    margin-left: 39px;
+    margin-right: 39px;
     color: $blue-color;
     font-family: Raleway;
+    text-align: center;
     font-size: 26px;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
+    @media screen and (min-width:1200px){
+      
+    }
   }
 
   &__span {
@@ -116,11 +132,34 @@
   }
 
   &__container {
+    flex-direction: column;
     @include flexbox($gapper:70px);
+    @media screen and (min-width:768px){
+      flex-direction: row;
+      @include flexbox($gapper:60px, $wrapper:wrap);
+    }
+    @media screen and (min-width:1200px){
+      flex-direction: row;
+    @include flexbox($gapper:70px);
+    }
   }
+
+  &__item:nth-child(1){
+    margin-right: 0px;
+    @media screen and (min-width:768px){
+      margin-right: 105px;
+    }
+    @media screen and (min-width:1200px){
+      margin-right: 0px;
+    }
+    
+  }
+
+  
 
   &__subtext {
     color: #fff;
+    text-align: center;
     margin-bottom: 20px;
     font-family: Roboto;
     font-size: 14px;
@@ -129,11 +168,14 @@
     line-height: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
-    margin-right: 90px;
+    
+    @media screen and (min-width:1200px){
+      margin-right: 90px;
+    }
   }
 
   &__input-holder {
-    width: 358px;
+    width: 320px;
     height: 50px;
     border-radius: 4px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -144,6 +186,10 @@
     display: flex;
     align-items: center;
     padding-left: 16px;
+    @media screen and (min-width:1200px){
+      width: 358px;
+    height: 50px;
+    }
   }
 
   &__input {
@@ -155,19 +201,41 @@
 
   &__emailinput-holder {
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     animation-name: animation-footer-input-holder;
     animation-timing-function: linear;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
+    @media screen and (min-width:1200px){
+      flex-direction: row;
+    }
   }
 
   &__svg-link:focus &__svg {
     fill: #fff;
   }
+  
+  &_subs{
+    text-align: start;
+    
+  }
+
+  &__button-holder{
+    margin-top: 20px;
+    margin-left: 125px;
+    margin-right: 125px;
+    @media screen and (min-width:1200px){
+      margin-right: 0px;
+      margin-left: 0px;
+      margin-top: 0px;
+    }
+  }
+  
 
   &__button {
-    margin-left: 12px;
     border-radius: 4px;
     background: #2196f3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -187,6 +255,9 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    @media screen and (min-width:1200px){
+      margin-left: 12px;
+    }
   }
 
   &__button-svg {
