@@ -5,8 +5,24 @@
   border-top: 1px solid #ececec;
 
   &__list {
-    @include flexbox($gapper:7px);
+    @include flexbox($gapper:8px, $wrapper:wrap, $align-gorizontal:start);
+    max-width: 326px;
+
+    margin-bottom: 40px;
+    @media screen and (min-width:768px){
+      @include flexbox($gapper:8px);
+      max-width: 575px;
+    margin-bottom: 30px;
+    height: 38px;
+    margin-left: 81px;
+    margin-right: 81px;
+    }
+    @media screen and (min-width:1200px){
+      @include flexbox($gapper:7px);
+      margin-left: 297px;
+      margin-right: 297px;
     margin-bottom: 50px;
+    }
   }
 
   &__button {
@@ -59,17 +75,93 @@
 
   &__list2 {
     @include flexbox($gapper: 30px, $wrapper: wrap );
+    flex-direction: column;
+    @media screen and (min-width:768px){
+      @include flexbox($gapper: 30px, $wrapper: wrap );
+      flex-direction: row;
+    }
+    @media screen and (min-width:1200px){
+      @include flexbox($gapper: 30px, $wrapper: wrap );
+      flex-direction: row;
+    }
   }
 
-  &__item2 {
+  &__list2 > :first-child {
     border: 1px solid #eee;
     background: $kiddo-ultra-white;
+    max-width: 450px;
+    position: relative;
+    overflow: hidden;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: box-shadow;
+    @media screen and (min-width:768px){
+      max-width: 354px;
+      height: 440px;
+    }
+    @media screen and (min-width:1200px){
+      border: 1px solid #eee;
+    background: $kiddo-ultra-white;
+    height: 404px;
     width: calc((100% - (2 * 30px)) / 3);
     position: relative;
     overflow: hidden;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: box-shadow;
+    }
+  }
+
+  &__list2 > :nth-child(2) {
+    border: 1px solid #eee;
+    background: $kiddo-ultra-white;
+    max-width: 450px;
+    position: relative;
+    overflow: hidden;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: box-shadow;
+    @media screen and (min-width:768px){
+      max-width: 354px;
+      height: 440px;
+    }
+    @media screen and (min-width:1200px){
+      border: 1px solid #eee;
+    background: $kiddo-ultra-white;
+    height: 404px;
+    width: calc((100% - (2 * 30px)) / 3);
+    position: relative;
+    overflow: hidden;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: box-shadow;
+    }
+  }
+
+  &__item2 {
+    border: 1px solid #eee;
+    background: $kiddo-ultra-white;
+    max-width: 450px;
+    position: relative;
+    overflow: hidden;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: box-shadow;
+    @media screen and (min-width:768px){
+      max-width: 354px;
+      height: 404px;
+    }
+    @media screen and (min-width:1200px){
+      border: 1px solid #eee;
+    background: $kiddo-ultra-white;
+    height: 404px;
+    width: calc((100% - (2 * 30px)) / 3);
+    position: relative;
+    overflow: hidden;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: box-shadow;
+    }
   }
 
   &__item2:hover {

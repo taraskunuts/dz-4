@@ -1,9 +1,15 @@
 .top {
   background-color: $kiddo-ultra-white;
+  padding-top: 10px;
+  padding-bottom: 10px;
   @media screen and (min-width: 768px){
+    padding-top: 21px;
+    padding-bottom: 21px;
   }
 
   @media screen and (min-width: 1200px){
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
   
 
@@ -71,8 +77,6 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: color, background-color;
-    padding-top: 32px;
-    padding-bottom: 32px;
   }
 
   &__link:focus {
@@ -214,7 +218,7 @@
   &__list {
     display: none;
     @media screen and (min-width: 768px){
-      @include flexbox($gapper:10px);
+      @include flexbox($gapper:10px ,$align-vertical:start);
       flex-direction: column;
     }
     @media screen and (min-width: 1200px){
@@ -225,7 +229,7 @@
 
   &__item {
     width: 170px;
-    @include flexbox();
+    @include flexbox($align-gorizontal:start);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: fill;

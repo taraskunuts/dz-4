@@ -17,14 +17,14 @@
 
   &__img {
     width: 450px;
-    height: 460px;
+    // height: 460px;
     @media screen and (min-width: 768px) {
       width: 354px;
-      height: 374px;
+      // height: 374px;
     }
     @media screen and (min-width: 1200px) {
       width: 270px;
-      height: 260px;
+      // height: 260px;
     }
   }
 
@@ -64,14 +64,14 @@
 
   &__item {
     background-color: $kiddo-ultra-white;
-    height: 622px;
+    // height: 622px;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
       0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
       @media screen and (min-width:768px){
-        height: 536px;
+        // height: 536px;
       }
     @media screen and (min-width: 1200px) {
-      height: 428px;
+      // height: 428px;
     }
   }
 

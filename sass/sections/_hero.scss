@@ -48,8 +48,7 @@
     line-height: 42px; /* 161.538% */
     letter-spacing: 1.56px;
     text-transform: uppercase;
-    width: 360px;
-    height: 84px;
+    max-width: 360px;
     @media screen and (min-width: 1200px) {
       color: #fff;
       text-align: center;
@@ -58,8 +57,7 @@
       line-height: 60px;
       letter-spacing: 2.64px;
       text-transform: uppercase;
-      width: 696px;
-      height: 120px;
+      max-width: 696px;
     }
   }
 

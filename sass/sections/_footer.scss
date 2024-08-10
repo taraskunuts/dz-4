@@ -154,7 +154,6 @@
     }
     
   }
-
   
 
   &__subtext {
@@ -175,7 +174,7 @@
   }
 
   &__input-holder {
-    width: 320px;
+    width: 300px;
     height: 50px;
     border-radius: 4px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -186,6 +185,9 @@
     display: flex;
     align-items: center;
     padding-left: 16px;
+    @media screen and (min-width:768px){
+      width: 450px;
+    }
     @media screen and (min-width:1200px){
       width: 358px;
     height: 50px;
@@ -200,6 +202,7 @@
   }
 
   &__emailinput-holder {
+    max-width: 450px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -225,11 +228,7 @@
 
   &__button-holder{
     margin-top: 20px;
-    margin-left: 125px;
-    margin-right: 125px;
     @media screen and (min-width:1200px){
-      margin-right: 0px;
-      margin-left: 0px;
       margin-top: 0px;
     }
   }

@@ -1,29 +1,24 @@
 .quality {
   margin-left: auto;
   margin-right: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+  }
 
   &__text {
     color: $text-color;
     font-size: 14px;
     font-weight: 700;
-    line-height: 1, 1;
+    text-align: center;
+    line-height: 1.1;
     letter-spacing: 0.42px;
     text-transform: uppercase;
-    padding-top: 30px;
+    margin-top: 30px;
     margin-bottom: 10px;
-  }
-  
-  &_subtext {
-    display: flex;
-    width: 450px;
-    height: 50px;
-    @media screen and (min-width: 768px){
-      width: 354px;
-      height: 48px;
-    }
-    @media screen and (min-width: 1200px){
-      width: 270px;
-      height: 72px;
+    @media screen and (min-width: 1200px) {
+      text-align: start;
     }
   }
 
@@ -35,31 +30,8 @@
     background-repeat: no-repeat;
     border-radius: 4px;
     background-color: #f5f4fa;
-    width: 450px;
-    height: 120px;
-    @media screen and (min-width: 768px) {
-      content: "";
-    display: block;
-    background-image: url("../../images/antenna.webp");
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    border-radius: 4px;
-    background-color: #f5f4fa;
-    width: 354px;
     height: 120px;
     }
-    @media screen and (min-width: 1200px) {
-      content: "";
-      display: inline-block;
-      background-image: url("../../images/antenna.webp");
-      background-position: 50% 50%;
-      background-repeat: no-repeat;
-      border-radius: 4px;
-      background-color: #f5f4fa;
-      width: 270px;
-      height: 120px;
-    }
-  }
 
   &__list > :nth-child(2):before {
     content: "";
@@ -69,30 +41,7 @@
     background-repeat: no-repeat;
     border-radius: 4px;
     background-color: #f5f4fa;
-    width: 450px;
     height: 120px;
-    @media screen and (min-width: 768px) {
-      content: "";
-    display: block;
-    background-image: url("../../images/clock.webp");
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    border-radius: 4px;
-    background-color: #f5f4fa;
-    width: 354px;
-    height: 120px;
-    }
-    @media screen and (min-width: 1200px) {
-      content: "";
-      display: inline-block;
-      background-image: url("../../images/clock.webp");
-      background-position: 50% 50%;
-      background-repeat: no-repeat;
-      border-radius: 4px;
-      background-color: #f5f4fa;
-      width: 270px;
-      height: 120px;
-    }
   }
   &__list > :nth-child(3):before {
     content: "";
@@ -102,30 +51,7 @@
     background-repeat: no-repeat;
     border-radius: 4px;
     background-color: #f5f4fa;
-    width: 450px;
     height: 120px;
-    @media screen and (min-width: 768px) {
-      content: "";
-    display: block;
-    background-image: url("../../images/diagram.webp");
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    border-radius: 4px;
-    background-color: #f5f4fa;
-    width: 354px;
-    height: 120px;
-    }
-    @media screen and (min-width: 1200px) {
-      content: "";
-      display: inline-block;
-      background-image: url("../../images/diagram.webp");
-      background-position: 50% 50%;
-      background-repeat: no-repeat;
-      border-radius: 4px;
-      background-color: #f5f4fa;
-      width: 270px;
-      height: 120px;
-    }
   }
   &__list > :last-child::before {
     content: "";
@@ -135,52 +61,37 @@
     background-repeat: no-repeat;
     border-radius: 4px;
     background-color: #f5f4fa;
-    width: 450px;
     height: 120px;
-    @media screen and (min-width: 768px) {
-      content: "";
-    display: block;
-    background-image: url("../../images/astronaut.webp");
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    border-radius: 4px;
-    background-color: #f5f4fa;
-    width: 354px;
-    height: 120px;
-    }
-    @media screen and (min-width: 1200px) {
-      content: "";
-      display: inline-block;
-      background-image: url("../images/astronaut.webp");
-      background-position: 50% 50%;
-      background-repeat: no-repeat;
-      border-radius: 4px;
-      background-color: #f5f4fa;
-      width: 270px;
-      height: 120px;
-    }
   }
 
   &__list {
     @include flexbox($gapper: 30px);
     flex-direction: column;
-    padding-top: 60px;
-    @media screen and (min-width: 768px){
+
+    @media screen and (min-width: 768px) {
       // @include flexbox($gapper: 30px);
       display: flex;
+      flex-direction: row;
       flex-wrap: wrap;
-      height: 768px;
     }
     @media screen and (min-width: 1200px) {
       @include flexbox($gapper: 30px);
-      flex-direction: row;
-      padding-top: 94px;
     }
   }
 
   &__item {
     color: #757575;
-    height: 224px;
-    max-width: 354px;
+    max-width: 450px;
+    @media screen and (min-width: 768px) {
+      max-width: 354px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+    }
+  }
+
+  &__subtext {
+    max-width: 450px;
+    height: 50px;
   }
 }
