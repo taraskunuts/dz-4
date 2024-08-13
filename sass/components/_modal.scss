@@ -11,21 +11,38 @@
 }
 
 .modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   text-align: center;
-  width: 528px;
-  height: 581px;
+  // padding-left: 40px;
+  // padding-right: 40px;
+  // width: 410px;
+height: 609px;
   border-radius: 4px;
   background: #fff;
+  padding-bottom: 40px;
   padding-top: 8px;
-  padding-right: 8px;
-  padding-left: 41px;
+  // padding-right: 8px;
+  // padding-left: 41px;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
-
   transition: transform 1s ease;
+  @media screen and (min-width:1200px){
+    // min-width: 450px;
+
+  }
+  @media screen and (min-width:1200px){
+ 
+  min-width: 528px;
+  height: 581px;
+  }
 
   &__title {
-    width: 448px;
+    margin-bottom: 2px;
+    max-width: 310px;
+    height: 60px;
     color: #212121;
     text-align: center;
     font-family: Roboto;
@@ -34,6 +51,9 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.6px;
+    @media screen and (min-width:1200px){
+      min-width: 448px;
+    }
   }
 
   &__text {
@@ -42,21 +62,35 @@
   }
 
   &__list {
+    padding-left: 40px;
+    padding-right: 40px;
     margin-top: 2px;
+    height: 342px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
+
+
 
   &__label {
     padding-top: 11px;
     padding-bottom: 11px;
     padding-left: 12px;
     padding-right: 12px;
-    width: 448px;
+    width: 355px;
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: border, fill;
     @include flexbox();
+    @media screen and (min-width:1200px){
+      width: 448px;
+    
+    @include flexbox();
+    }
   }
 
   &__label:hover {
@@ -74,8 +108,8 @@
   }
 
   &__label-big {
-    display: block;
-    width: 448px;
+    display: flex;
+    width: 355px;
     height: 120px;
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -83,15 +117,14 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: border;
+    @media screen and (min-width:1200px){
+      width: 448px;
+    }
   }
 
   &__label-big:hover {
-    display: block;
-    width: 448px;
-    height: 120px;
-    border-radius: 4px;
+    
     border: 1px solid #2196f3;
-    padding: 12px 16px 82px 16px;
   }
 
   &__text {
@@ -140,6 +173,8 @@
   &__box {
     margin-top: 20px;
     margin-bottom: 30px;
+    min-width: 370px;
+    
     @include flexbox($gapper: 7px);
   }
 
@@ -151,6 +186,7 @@
     height: 30px;
     flex-shrink: 0;
     margin-left: auto;
+    margin-right: 8px;
     padding: 6px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

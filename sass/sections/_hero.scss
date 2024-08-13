@@ -1,4 +1,5 @@
 .hero {
+  background-repeat: no-repeat;
   background-color: #2f303a;
   // height: 400px;
   padding-top: 118px;
@@ -7,7 +8,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../../images/hero-background.webp");
+    url("../images/hero-background.webp");
     @media screen and (min-width: 768px){
       background-color: #2f303a;
   // height: 400px;
@@ -17,7 +18,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../../images/hero-background.webp");
+    url("../images/hero-background.webp");
     }
   @media screen and (min-width: 1200px) {
     margin-left: auto;
@@ -30,7 +31,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../../images/hero-background.webp");
+      url("../images/hero-background.webp");
   }
 
   &__container {

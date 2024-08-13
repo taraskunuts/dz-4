@@ -1,11 +1,15 @@
 .portfolio {
   background-color: $kiddo-ultra-white;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   border-top: 1px solid #ececec;
+  @media screen and (min-width:1200px){
+    padding-top: 94px;
+  padding-bottom: 94px;
+  }
 
   &__list {
-    @include flexbox($gapper:8px, $wrapper:wrap, $align-gorizontal:start);
+    @include flexbox($gapper:8px, $wrapper:wrap, $align-gorizontal:flex-start);
     max-width: 326px;
 
     margin-bottom: 40px;

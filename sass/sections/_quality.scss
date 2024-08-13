@@ -5,6 +5,7 @@
   padding-bottom: 60px;
   @media screen and (min-width: 1200px) {
     padding-top: 94px;
+    padding-bottom: 94px;
   }
 
   &__text {
@@ -25,7 +26,7 @@
   &__list > :first-child::before {
     content: "";
     display: block;
-    background-image: url("../../images/antenna.webp");
+    background-image: url("../images/antenna.webp");
     background-position: 50% 50%;
     background-repeat: no-repeat;
     border-radius: 4px;
@@ -36,7 +37,7 @@
   &__list > :nth-child(2):before {
     content: "";
     display: block;
-    background-image: url("../../images/clock.webp");
+    background-image: url("../images/clock.webp");
     background-position: 50% 50%;
     background-repeat: no-repeat;
     border-radius: 4px;
@@ -46,7 +47,7 @@
   &__list > :nth-child(3):before {
     content: "";
     display: block;
-    background-image: url("../../images/diagram.webp");
+    background-image: url("../images/diagram.webp");
     background-position: 50% 50%;
     background-repeat: no-repeat;
     border-radius: 4px;
@@ -56,7 +57,7 @@
   &__list > :last-child::before {
     content: "";
     display: block;
-    background-image: url("../../images/astronaut.webp");
+    background-image: url("../images/astronaut.webp");
     background-position: 50% 50%;
     background-repeat: no-repeat;
     border-radius: 4px;

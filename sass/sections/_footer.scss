@@ -136,7 +136,7 @@
     @include flexbox($gapper:70px);
     @media screen and (min-width:768px){
       flex-direction: row;
-      @include flexbox($gapper:60px, $wrapper:wrap);
+      @include flexbox($gapper:60px, $wrapper:wrap, $align-vertical:flex-start);
     }
     @media screen and (min-width:1200px){
       flex-direction: row;
@@ -169,6 +169,7 @@
     text-transform: uppercase;
     
     @media screen and (min-width:1200px){
+      text-align: start;
       margin-right: 90px;
     }
   }
