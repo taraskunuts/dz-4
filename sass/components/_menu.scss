@@ -1,0 +1,26 @@
+.menu {
+  &__list {
+    display: flex;
+
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  &__item {
+    width: 150px;
+  }
+
+  &__text {
+    color: #212121;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.8px;
+  }
+  
+  &__text:hover{
+    color: #2196F3;
+  }
+}

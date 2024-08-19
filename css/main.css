@@ -83,7 +83,7 @@ img {
 .top__container {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   gap: 0px;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -310,6 +310,45 @@ img {
 }
 .top__item:hover .top__phone {
   fill: #2196f3;
+}
+.top__burger {
+  width: 40px;
+  height: 40px;
+}
+
+.menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 32px;
+  background-color: #fff;
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+}
+
+.menu-container.is-open {
+  transform: translateX(0);
+}
+
+.menu-container .menu-toggle {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: #fff;
+}
+
+.menu-toggle {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
 }
 
 .hero {
@@ -589,11 +628,16 @@ img {
 .comand__title {
   color: #212121;
   text-align: center;
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 1.08px;
   margin-bottom: 50px;
+}
+@media screen and (min-width: 1200px) {
+  .comand__title {
+    font-size: 36px;
+  }
 }
 .comand__img {
   width: 450px;
@@ -818,12 +862,17 @@ img {
 .customers__title {
   text-align: center;
   font-family: Roboto;
-  font-size: 36px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
   margin-bottom: 50px;
+}
+@media screen and (min-width: 1200px) {
+  .customers__title {
+    font-size: 36px;
+  }
 }
 
 .footer {
@@ -859,19 +908,21 @@ img {
   color: #2196f3;
   font-family: Raleway;
   text-align: center;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
 }
+@media screen and (min-width: 1200px) {
+  .footer__title {
+    font-size: 26px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: start;
+  }
+}
 .footer__span {
   color: #fff;
-  font-family: Raleway;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.78px;
 }
 .footer__address {
   color: #fff;
@@ -996,6 +1047,10 @@ img {
 @media screen and (min-width: 1200px) {
   .footer__item:nth-child(1) {
     margin-right: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
   }
 }
 .footer__subtext {
@@ -1106,8 +1161,8 @@ img {
 }
 
 .backdrop {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   position: fixed;
   left: 0px;
   top: 0px;
@@ -1196,7 +1251,7 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .modal__label {
-    width: 448px;
+    min-width: 448px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -1228,7 +1283,7 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .modal__label-big {
-    width: 448px;
+    min-width: 448px;
   }
 }
 .modal__label-big:hover {
@@ -1276,12 +1331,17 @@ img {
 .modal__box {
   margin-top: 20px;
   margin-bottom: 30px;
-  min-width: 370px;
+  max-width: 370px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 7px;
   flex-wrap: nowrap;
+}
+@media screen and (min-width: 1200px) {
+  .modal__box {
+    min-width: 490px;
+  }
 }
 .modal__close {
   background-color: transparent;
@@ -1291,6 +1351,7 @@ img {
   height: 30px;
   flex-shrink: 0;
   margin-left: auto;
+  margin-top: 8px;
   margin-right: 8px;
   padding: 6px;
   transition-duration: 250ms;
@@ -1338,4 +1399,25 @@ img {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
+}
+
+.menu__list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.menu__item {
+  width: 150px;
+}
+.menu__text {
+  color: #212121;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.8px;
+}
+.menu__text:hover {
+  color: #2196F3;
 }/*# sourceMappingURL=main.css.map */

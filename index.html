@@ -51,6 +51,10 @@
               >
             </li>
           </ul>
+
+          <button type="menu" class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+            <img src="./images/menu_40px.jpg" alt="burger" class="top__burger">
+          </button>
         </div>
       </div>
     </header>
@@ -475,6 +479,8 @@
         </ul>
       </div>
     </footer>
+     
+    <!-- menu 1 -->
 
     <div data-modal class="backdrop is-hidden">
       <div class="modal">
@@ -543,10 +549,26 @@
       </div>
     </div>
 
+    <!-- menu 2 -->
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <div class="menu">
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a href="./index.html" class="menu__text">Студія</a></li>
+        <li class="menu__item">
+          <a href="./portfolio.html" class="menu__text">Портфоліо</a></li>
+        <li class="menu__item">
+          <a href="#footer-anchor" class="menu__text">Контакти</a></li>
+      </ul>
+    </div>
+    </div>
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

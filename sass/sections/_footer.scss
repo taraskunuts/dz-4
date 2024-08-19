@@ -21,26 +21,24 @@
   &__title {
     margin-left: 39px;
     margin-right: 39px;
+    
     color: $blue-color;
     font-family: Raleway;
     text-align: center;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
     @media screen and (min-width:1200px){
-      
+    font-size: 26px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: start;
     }
   }
 
   &__span {
     color: $kiddo-ultra-white;
-    font-family: Raleway;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.78px;
   }
 
   &__address {
@@ -67,7 +65,6 @@
     color: $footer-color;
 
     font-size: 14px;
-
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.42px;
@@ -151,6 +148,10 @@
     }
     @media screen and (min-width:1200px){
       margin-right: 0px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
     }
     
   }

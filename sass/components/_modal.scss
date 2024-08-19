@@ -1,6 +1,6 @@
 .backdrop {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   position: fixed;
   left: 0px;
   top: 0px;
@@ -90,7 +90,7 @@
     transition-property: border, fill;
     @include flexbox($align-gorizontal:flex-start);
     @media screen and (min-width:1200px){
-      width: 448px;
+      min-width: 448px;
     
     @include flexbox($align-gorizontal:flex-start);
     }
@@ -121,7 +121,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: border;
     @media screen and (min-width:1200px){
-      width: 448px;
+      min-width: 448px;
     }
   }
 
@@ -173,12 +173,16 @@
     border: none;
   }
 
+
   &__box {
     margin-top: 20px;
     margin-bottom: 30px;
-    min-width: 370px;
+    max-width: 370px;
     
     @include flexbox($gapper: 7px);
+    @media screen and (min-width:1200px){
+      min-width: 490px;
+    }
   }
 
   &__close {
@@ -189,6 +193,7 @@
     height: 30px;
     flex-shrink: 0;
     margin-left: auto;
+    margin-top: 8px;
     margin-right: 8px;
     padding: 6px;
     transition-duration: 250ms;
