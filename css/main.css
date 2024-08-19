@@ -509,7 +509,6 @@ img {
 }
 .quality__subtext {
   max-width: 450px;
-  height: 50px;
 }
 
 .doing {
@@ -1129,7 +1128,7 @@ img {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  height: 609px;
+  max-width: 410px;
   border-radius: 4px;
   background: #fff;
   padding-bottom: 40px;
@@ -1142,6 +1141,9 @@ img {
     min-width: 528px;
     height: 581px;
   }
+}
+.modal__item {
+  width: 100%;
 }
 .modal__title {
   margin-bottom: 2px;
@@ -1180,7 +1182,7 @@ img {
   padding-bottom: 11px;
   padding-left: 12px;
   padding-right: 12px;
-  width: 355px;
+  max-width: 355px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   transition-duration: 250ms;
@@ -1188,7 +1190,7 @@ img {
   transition-property: border, fill;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 0px;
   flex-wrap: nowrap;
 }
@@ -1197,7 +1199,7 @@ img {
     width: 448px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 0px;
     flex-wrap: nowrap;
   }
@@ -1209,13 +1211,13 @@ img {
   fill: #2196f3;
 }
 .modal__input {
-  width: 394px;
+  max-width: 394px;
   outline: none;
   border: none;
 }
 .modal__label-big {
   display: flex;
-  width: 355px;
+  max-width: 355px;
   height: 120px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -1253,7 +1255,7 @@ img {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.12px;
-  width: 400px;
+  max-width: 400px;
 }
 .modal__button {
   border-radius: 4px;
