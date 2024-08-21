@@ -925,4 +925,48 @@ img {
 }
 .menu__text:hover {
   color: #2196F3;
+}
+.menu__telephone {
+  margin-top: 302px;
+  color: #2196F3;
+  font-family: Roboto;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.68px;
+}
+.menu__info {
+  margin-top: 32px;
+  margin-bottom: 64px;
+  color: #757575;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+.menu__society {
+  color: #2196F3;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.36px;
+}
+.menu__gap {
+  width: 1px;
+  height: 22px;
+  background: rgba(33, 33, 33, 0.2);
+}
+.menu__society-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.menu__svg {
+  width: 40px;
+  height: 40px;
 }/*# sourceMappingURL=portfoilio.css.map */
