@@ -140,23 +140,53 @@
           <h2 class="doing__title" data-aos="fade-down">Чим ми займаємося</h2>
           <ul class="doing__list">
             <li class="doing__item" data-aos="fade-right">
-              <img
-                src="./images/coding-fast.webp"
-                alt="coding"
-                class="doing__image"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/dekstop/coding-fast@dekstop1x.webp 1x,
+                    ./images/dekstop/coding-fast@dekstop2x.webp 2x
+                  "
+                />
+                <img
+                  src="./images/coding-fast.webp"
+                  alt="coding"
+                  class="doing__image"
+                />
+              </picture>
+
               <button class="doing__button">Десктопні додатки</button>
             </li>
             <li class="doing__item" data-aos="fade-up">
-              <img
-                src="./images/computer-phone.webp"
-                alt="computer-phone"
-                class="doing__image"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/dekstop/computer-phone@dekstop1x.webp 1x,
+                    ./images/dekstop/computer-phone@dekstop2x.webp 2x
+                  "
+                />
+                <img
+                  src="./images/computer-phone.webp"
+                  alt="computer-phone"
+                  class="doing__image"
+                />
+              </picture>
+
               <button class="doing__button">Мобільні додатки</button>
             </li>
             <li class="doing__item" data-aos="fade-left">
-              <img src="./images/rgb.webp" alt="rgb" class="doing__image" />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/dekstop/rgb@dekstop1x.webp 1x,
+                    ./images/dekstop/rgb@dekstop2x.webp 2x
+                  "
+                />
+                <img src="./images/rgb.webp" alt="rgb" class="doing__image" />
+              </picture>
+
               <button class="doing__button">Дизайнерські рішення</button>
             </li>
           </ul>
@@ -184,7 +214,13 @@
                   ./images/tablet/ihor@tablet2x.webp 2x
                 "
               />
-              <!-- <source> -->
+              <source
+                media="(min-width: 1200px)"
+                srcset="
+                  ./images/dekstop/ihor@dekstop1x.webp 1x,
+                  ./images/dekstop/ihor@dekstop2x.webp 2x
+                "
+              />
               <img
                 src="./images/mobile/ihor@mobile1x.webp"
                 alt="Ihor"
@@ -249,7 +285,13 @@
                   ./images/tablet/olga@tablet2x.webp 2x
                 "
               />
-              <!-- <source> -->
+              <source
+                media="(min-width: 1200px)"
+                srcset="
+                  ./images/dekstop/olga@dekstop1x.webp 1x,
+                  ./images/dekstop/olga@dekstop2x.webp 2x
+                "
+              />
               <img src="./images/olga.webp" alt="olga" class="comand__img" />
             </picture>
 
@@ -300,8 +342,8 @@
                 media="(max-width: 767px)"
                 srcset="
                   ./images/mobile/mykola@mobile1x.webp 1x,
-                  ./images/mobile/mykola@mobile2x.webp  2x
-                 "
+                  ./images/mobile/mykola@mobile2x.webp 2x
+                "
               />
               <source
                 media="(max-width: 1199px)"
@@ -310,7 +352,13 @@
                   ./images/tablet/mykola@tablet2x.webp 2x
                 "
               />
-              <!-- <source> -->
+              <source
+                media="(min-width: 1200px)"
+                srcset="
+                  ./images/dekstop/mykola@dekstop1x.webp 1x,
+                  ./images/dekstop/mykola@dekstop2x.webp 2x
+                "
+              />
               <img
                 src="./images/mykola.webp"
                 alt="mykola"
@@ -374,7 +422,13 @@
                   ./images/tablet/misha@tablet2x.webp 2x
                 "
               />
-              <!-- <source> -->
+              <source
+                media="(min-width: 1200px)"
+                srcset="
+                  ./images/dekstop/misha@dekstop1x.webp 1x,
+                  ./images/dekstop/misha@dekstop2x.webp 2x
+                "
+              />
               <img src="./images/misha.webp" alt="misha" class="comand__img" />
             </picture>
 

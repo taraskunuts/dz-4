@@ -456,7 +456,7 @@ img {
   .portfolio__list2 {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 30px;
     flex-wrap: wrap;
     flex-direction: row;
@@ -474,6 +474,9 @@ img {
 }
 .portfolio__list2 > :first-child {
   border: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
   background: #fff;
   max-width: 450px;
   position: relative;
@@ -485,43 +488,12 @@ img {
 @media screen and (min-width: 768px) {
   .portfolio__list2 > :first-child {
     max-width: 354px;
-    height: 440px;
   }
 }
 @media screen and (min-width: 1200px) {
   .portfolio__list2 > :first-child {
     border: 1px solid #eee;
     background: #fff;
-    height: 404px;
-    width: calc((100% - 60px) / 3);
-    position: relative;
-    overflow: hidden;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: box-shadow;
-  }
-}
-.portfolio__list2 > :nth-child(2) {
-  border: 1px solid #eee;
-  background: #fff;
-  max-width: 450px;
-  position: relative;
-  overflow: hidden;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: box-shadow;
-}
-@media screen and (min-width: 768px) {
-  .portfolio__list2 > :nth-child(2) {
-    max-width: 354px;
-    height: 440px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .portfolio__list2 > :nth-child(2) {
-    border: 1px solid #eee;
-    background: #fff;
-    height: 404px;
     width: calc((100% - 60px) / 3);
     position: relative;
     overflow: hidden;
@@ -533,6 +505,9 @@ img {
 .portfolio__item2 {
   border: 1px solid #eee;
   background: #fff;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
   max-width: 450px;
   position: relative;
   overflow: hidden;
@@ -543,15 +518,13 @@ img {
 @media screen and (min-width: 768px) {
   .portfolio__item2 {
     max-width: 354px;
-    height: 404px;
   }
 }
 @media screen and (min-width: 1200px) {
   .portfolio__item2 {
     border: 1px solid #eee;
     background: #fff;
-    height: 404px;
-    width: calc((100% - 60px) / 3);
+    flex-basis: calc((100% - 60px) / 3);
     position: relative;
     overflow: hidden;
     transition-duration: 250ms;
@@ -776,7 +749,7 @@ img {
   .footer__container {
     flex-direction: row;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 70px;
     flex-wrap: nowrap;

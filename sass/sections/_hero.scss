@@ -8,20 +8,43 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
+    url("../images/mobile/hero-background@mobile1x.webp"),
     url("../images/hero-background.webp");
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/mobile/hero-background@mobile2x.webp"),
+      url("../images/hero-background.webp");
     background-size: cover;
-    @media screen and (min-width: 768px){
-      background-color: #2f303a;
-      background-size: cover;
-  // height: 400px;
-  padding-top: 118px;
-  padding-bottom: 118px;
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url("../images/hero-background.webp");
+  }
+  background-size: cover;
+  @media screen and (min-width: 768px) {
+    background-color: #2f303a;
+    background-size: cover;
+    // height: 400px;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/tablet/hero-background@tablet1x.webp"),
+      url("../images/hero-background.webp");
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../images/tablet/hero-background@tablet2x.webp"),
+          url("../images/hero-background.webp");
     }
+  }
   @media screen and (min-width: 1200px) {
     background-size: cover;
     margin-left: auto;
@@ -34,7 +57,18 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
+      url("../images/dekstop/hero-background@dekstop1x.webp"),
       url("../images/hero-background.webp");
+      @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+        background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ), url("../images/dekstop/hero-background@dekstop2x.webp"),
+        url("../images/hero-background.webp");
+        background-size: cover;
+      }
   }
 
   &__container {
