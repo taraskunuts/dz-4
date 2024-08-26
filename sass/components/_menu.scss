@@ -1,4 +1,6 @@
 .menu {
+  display: block;
+  height: 686px;
   &__list {
     display: flex;
 
@@ -25,7 +27,7 @@
   }
 
   &__telephone{
-    margin-top: 302px;
+    margin-top: 200px;
     color: #2196F3;
 font-family: Roboto;
 font-size: 34px;

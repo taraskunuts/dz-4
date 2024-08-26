@@ -21,6 +21,7 @@
     />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
+
   <body id="bigbox">
     <header class="top">
       <div class="container">
@@ -168,7 +169,29 @@
         <h2 class="comand__title" data-aos="flip-down">Наша команда</h2>
         <ul class="comand__list">
           <li class="comand__item" data-aos="flip-up">
-            <img src="./images/Ihor.webp" alt="Ihor" class="comand__img" />
+            <picture>
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./images/mobile/ihor@mobile1x.webp 1x,
+                  ./images/mobile/ihor@mobile2x.webp 2x
+                "
+              />
+              <source
+                media="(max-width: 1199px)"
+                srcset="
+                  ./images/tablet/ihor@tablet1x.webp 1x,
+                  ./images/tablet/ihor@tablet2x.webp 2x
+                "
+              />
+              <!-- <source> -->
+              <img
+                src="./images/mobile/ihor@mobile1x.webp"
+                alt="Ihor"
+                class="comand__img"
+              />
+            </picture>
+
             <h3 class="comand__text">Ігор Дем'яненко</h3>
             <h3 class="comand__subtext">Product Designer</h3>
             <ul class="comand__svg-list">
@@ -211,7 +234,25 @@
             </ul>
           </li>
           <li class="comand__item" data-aos="flip-up">
-            <img src="./images/olga.webp" alt="olga" class="comand__img" />
+            <picture>
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./images/mobile/olga@mobile1x.webp 1x,
+                  ./images/mobile/olga@mobile2x.webp 2x
+                "
+              />
+              <source
+                media="(max-width: 1199px)"
+                srcset="
+                  ./images/tablet/olga@tablet1x.webp 1x,
+                  ./images/tablet/olga@tablet2x.webp 2x
+                "
+              />
+              <!-- <source> -->
+              <img src="./images/olga.webp" alt="olga" class="comand__img" />
+            </picture>
+
             <h3 class="comand__text">Ольга Рєпіна</h3>
             <h3 class="comand__subtext">Frontend Developer</h3>
             <ul class="comand__svg-list">
@@ -254,7 +295,28 @@
             </ul>
           </li>
           <li class="comand__item" data-aos="flip-up">
-            <img src="./images/mykola.webp" alt="mykola" class="comand__img" />
+            <picture>
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./images/mobile/mykola@mobile1x.webp 1x,
+                  ./images/mobile/mykola@mobile2x.webp  2x
+                 "
+              />
+              <source
+                media="(max-width: 1199px)"
+                srcset="
+                  ./images/tablet/mykola@tablet1x.webp 1x,
+                  ./images/tablet/mykola@tablet2x.webp 2x
+                "
+              />
+              <!-- <source> -->
+              <img
+                src="./images/mykola.webp"
+                alt="mykola"
+                class="comand__img"
+              />
+            </picture>
             <h3 class="comand__text">Микола Тарасов</h3>
             <h3 class="comand__subtext">Marketing</h3>
             <ul class="comand__svg-list">
@@ -297,7 +359,25 @@
             </ul>
           </li>
           <li class="comand__item" data-aos="flip-up">
-            <img src="./images/misha.webp" alt="misha" class="comand__img" />
+            <picture>
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./images/mobile/misha@mobile1x.webp 1x,
+                  ./images/mobile/misha@mobile2x.webp 2x
+                "
+              />
+              <source
+                media="(max-width: 1199px)"
+                srcset="
+                  ./images/tablet/misha@tablet1x.webp 1x,
+                  ./images/tablet/misha@tablet2x.webp 2x
+                "
+              />
+              <!-- <source> -->
+              <img src="./images/misha.webp" alt="misha" class="comand__img" />
+            </picture>
+
             <h3 class="comand__text">Михайло Єрмаков</h3>
             <h3 class="comand__subtext">UI Designer</h3>
             <ul class="comand__svg-list">
