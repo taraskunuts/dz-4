@@ -550,7 +550,7 @@ img {
 @media screen and (min-width: 1200px) {
   .quality__list {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 30px;
     flex-wrap: nowrap;
@@ -572,6 +572,13 @@ img {
 }
 .quality__subtext {
   max-width: 450px;
+  color: #757575;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
 }
 
 .doing {
@@ -1462,7 +1469,6 @@ img {
   color: #2196F3;
 }
 .menu__telephone {
-  margin-top: 200px;
   color: #2196F3;
   font-family: Roboto;
   font-size: 34px;

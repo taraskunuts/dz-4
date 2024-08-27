@@ -594,6 +594,10 @@ img {
   letter-spacing: 0.54px;
 }
 
+.show {
+  display: block;
+}
+
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
@@ -879,10 +883,6 @@ img {
   height: 24px;
 }
 
-.show {
-  display: block;
-}
-
 .menu {
   display: block;
   height: 686px;
@@ -908,7 +908,6 @@ img {
   color: #2196F3;
 }
 .menu__telephone {
-  margin-top: 200px;
   color: #2196F3;
   font-family: Roboto;
   font-size: 34px;
