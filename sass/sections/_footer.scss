@@ -130,14 +130,14 @@
 
   &__container {
     flex-direction: column;
-    @include flexbox($gapper:70px);
-    @media screen and (min-width:768px){
+    @include flexbox($gapper: 70px);
+    @media screen and (min-width: 768px){
       flex-direction: row;
-      @include flexbox($gapper:60px, $wrapper:wrap, $align-vertical:flex-start);
+      @include flexbox($gapper: 60px, $wrapper: wrap, $align-vertical: flex-start);
     }
     @media screen and (min-width:1200px){
       flex-direction: row;
-    @include flexbox($gapper:70px, $align-vertical:flex-start);
+    @include flexbox($align-vertical: flex-start,);
     }
   }
 
@@ -175,17 +175,19 @@
     }
   }
 
-  &__input-holder {
+  &__input {
     width: 300px;
     height: 50px;
+    background-color: #2f303a;
+    // outline: none;
+    // border: none;
+    color: rgba(255, 255, 255, 0.6);
     border-radius: 4px;
     border: 1px solid rgba(255, 255, 255, 0.3);
 
     background: rgba(33, 150, 243, 0);
 
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    display: flex;
-    align-items: center;
     padding-left: 16px;
     @media screen and (min-width:768px){
       width: 450px;
@@ -194,13 +196,6 @@
       width: 358px;
     height: 50px;
     }
-  }
-
-  &__input {
-    background-color: #2f303a;
-    outline: none;
-    border: none;
-    color: rgba(255, 255, 255, 0.6);
   }
 
   &__emailinput-holder {
@@ -227,13 +222,6 @@
     text-align: start;
     
   }
-
-  &__button-holder{
-    margin-top: 20px;
-    @media screen and (min-width:1200px){
-      margin-top: 0px;
-    }
-  }
   
 
   &__button {
@@ -244,7 +232,7 @@
     height: 50px;
     border: none;
     color: #fff;
-
+    margin-top: 20px;
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
@@ -258,6 +246,7 @@
     justify-content: space-around;
     @media screen and (min-width:1200px){
       margin-left: 12px;
+      margin-top: 0px;
     }
   }
 
